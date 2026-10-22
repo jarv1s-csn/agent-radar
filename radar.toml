@@ -1,0 +1,42 @@
+# agent-radar configuration
+# Add or remove repositories freely: the radar works for any GitHub project.
+
+[settings]
+# Issues created within this many days count as "new".
+lookback_days = 60
+# Rows per report section.
+top_n = 15
+# Minimum 👍 for a new issue to appear in the "new and climbing" section.
+min_reactions = 5
+# Minimum 👍 gained since the previous snapshot to appear in "fastest rising".
+min_gain = 3
+# Issues per search query (max 100).
+per_page = 50
+# Issues carrying any of these labels are skipped (case-insensitive).
+# Keep "duplicate" and "invalid" visible: maintainers often apply them to
+# consolidated community requests that still carry the most demand.
+exclude_labels = ["spam"]
+
+[[repos]]
+name = "anthropics/claude-code"
+
+[[repos]]
+name = "openai/codex"
+
+[[repos]]
+name = "anomalyco/opencode"
+
+[[repos]]
+name = "google-gemini/gemini-cli"
+
+[[repos]]
+name = "openclaw/openclaw"
+
+[[repos]]
+name = "NousResearch/hermes-agent"
+
+[[repos]]
+name = "cline/cline"
+
+[[repos]]
+name = "aaif-goose/goose"

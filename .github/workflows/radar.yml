@@ -23,6 +23,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Test
+        run: python -m unittest discover -s tests
+
+      # Exits non-zero and writes nothing if any part of the scan fails,
+      # so the commit step below is skipped and the run shows as failed.
       - name: Run radar
         run: python radar.py --config radar.toml
         env:

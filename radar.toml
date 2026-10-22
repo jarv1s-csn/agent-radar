@@ -2,20 +2,31 @@
 # Add or remove repositories freely: the radar works for any GitHub project.
 
 [settings]
-# Issues created within this many days count as "new".
+# Candidate pool: each repository is searched in three windows by creation
+# date (last lookback_days, lookback_days..mid_days, all time), keeping the
+# pool_size most-👍 open issues of each. The report shows each window's
+# entry threshold, so you can see what the pool misses.
 lookback_days = 60
-# Rows per report section.
-top_n = 15
-# Minimum 👍 for a new issue to appear in the "new and climbing" section.
-min_reactions = 5
-# Minimum 👍 gained since the previous snapshot to appear in "fastest rising".
+mid_days = 365
+pool_size = 100
+# "Fastest rising" counts 👍 added within this many days, from reaction timestamps.
+gain_days = 7
+# Minimum 👍 added within gain_days to appear in a "fastest rising" list.
 min_gain = 3
-# Issues per search query (max 100).
-per_page = 50
+# Minimum 👍 for a new issue to appear in "new and climbing".
+min_reactions = 5
+# Rows per demand list, and for the separate bug list.
+top_n = 15
+top_n_bugs = 10
 # Issues carrying any of these labels are skipped (case-insensitive).
 # Keep "duplicate" and "invalid" visible: maintainers often apply them to
 # consolidated community requests that still carry the most demand.
 exclude_labels = ["spam"]
+# Label words that mark an issue as a feature request or a bug. Labels are split
+# into words, so "kind/bug" and "type/feature" match. A request word wins when
+# both appear. Unlabeled issues fall back to a [FEATURE] / [BUG] title tag.
+request_label_words = ["enhancement", "feature", "request", "proposal"]
+bug_label_words = ["bug", "regression"]
 
 [[repos]]
 name = "anthropics/claude-code"

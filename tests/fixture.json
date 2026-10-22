@@ -1,32 +1,996 @@
 {
- "anthropics/claude-code|new": [
-  {"number": 91870, "title": "Mods - make Claude 10x more extensible", "html_url": "https://github.com/anthropics/claude-code/issues/91870", "created_at": "2026-09-03T18:00:23Z", "updated_at": "2026-10-21T21:23:42Z", "labels": [{"name": "enhancement"}, {"name": "area:hooks"}, {"name": "area:plugins"}], "comments": 267, "reactions": {"+1": 131}},
-  {"number": 89673, "title": "[FEATURE] Desktop app: option to make Enter insert a newline and Ctrl+Enter submit in the chat composer", "html_url": "https://github.com/anthropics/claude-code/issues/89673", "created_at": "2026-08-26T01:06:27Z", "updated_at": "2026-10-21T13:12:48Z", "labels": [{"name": "enhancement"}, {"name": "area:desktop"}, {"name": "keybindings"}], "comments": 14, "reactions": {"+1": 63}},
-  {"number": 91650, "title": "[BUG] Bash cd-compound-read guard prompts on absolute cd targets whenever a Read() deny rule exists (Windows Git Bash, 2.1.257-2.1.259)", "html_url": "https://github.com/anthropics/claude-code/issues/91650", "created_at": "2026-09-02T23:10:05Z", "updated_at": "2026-09-05T01:10:26Z", "labels": [{"name": "bug"}, {"name": "has repro"}, {"name": "platform:windows"}, {"name": "area:bash"}, {"name": "area:permissions"}], "comments": 10, "reactions": {"+1": 61}},
-  {"number": 92984, "title": "[BUG] Cowork (Windows): all Plan9 shares fail with \"Plan9 mount failed: invalid argument\" after Windows update KB5124008 (26200.9445) — uninstalling the KB fixes it", "html_url": "https://github.com/anthropics/claude-code/issues/92984", "created_at": "2026-09-09T03:16:16Z", "updated_at": "2026-10-12T13:11:00Z", "labels": [{"name": "bug"}, {"name": "has repro"}, {"name": "platform:windows"}, {"name": "area:cowork"}], "comments": 120, "reactions": {"+1": 58}},
-  {"number": 102273, "title": "[FEATURE] Desktop app (Code tab): end-of-turn \"next-step\" box with 1-2 answer buttons gets in the way of real discussion", "html_url": "https://github.com/anthropics/claude-code/issues/102273", "created_at": "2026-10-15T04:20:17Z", "updated_at": "2026-10-21T10:26:36Z", "labels": [{"name": "enhancement"}, {"name": "area:ui"}, {"name": "area:desktop"}], "comments": 18, "reactions": {"+1": 41}},
-  {"number": 97854, "title": "Auto mode: server-side safety classifier intermittently returns no verdict, blocking Bash and ScheduleWakeup entirely", "html_url": "https://github.com/anthropics/claude-code/issues/97854", "created_at": "2026-09-28T11:34:47Z", "updated_at": "2026-10-18T13:50:14Z", "labels": [{"name": "bug"}, {"name": "duplicate"}, {"name": "area:permissions"}], "comments": 31, "reactions": {"+1": 38}},
-  {"number": 90708, "title": "Desktop app: bring back the context-usage indicator (or make the footer widget configurable)", "html_url": "https://github.com/anthropics/claude-code/issues/90708", "created_at": "2026-08-30T08:30:19Z", "updated_at": "2026-10-15T11:48:53Z", "labels": [{"name": "enhancement"}, {"name": "platform:windows"}, {"name": "area:statusline"}, {"name": "area:desktop"}], "comments": 13, "reactions": {"+1": 25}}
- ],
- "anthropics/claude-code|top": [
-  {"number": 45596, "title": "Bring Back Buddy — A Consolidated Plea from the Community", "html_url": "https://github.com/anthropics/claude-code/issues/45596", "created_at": "2026-04-09T05:52:29Z", "updated_at": "2026-10-22T02:07:58Z", "labels": [{"name": "duplicate"}, {"name": "enhancement"}, {"name": "area:tui"}, {"name": "area:skills"}], "comments": 282, "reactions": {"+1": 1194}},
-  {"number": 18435, "title": "[FEATURE] Add the ability to manage multiple Claude accounts within the Claude Desktop app with easy switching between profiles.", "html_url": "https://github.com/anthropics/claude-code/issues/18435", "created_at": "2026-01-15T22:31:59Z", "updated_at": "2026-10-21T14:33:43Z", "labels": [{"name": "enhancement"}, {"name": "area:auth"}, {"name": "area:ide"}, {"name": "area:desktop"}], "comments": 213, "reactions": {"+1": 936}},
-  {"number": 36151, "title": "[FEATURE] Multi-account switching in Claude Mobile app without shared email", "html_url": "https://github.com/anthropics/claude-code/issues/36151", "created_at": "2026-03-19T10:34:27Z", "updated_at": "2026-09-29T14:58:12Z", "labels": [{"name": "invalid"}, {"name": "area:auth"}], "comments": 188, "reactions": {"+1": 765}},
-  {"number": 16157, "title": "[BUG] Instantly hitting usage limits with Max subscription", "html_url": "https://github.com/anthropics/claude-code/issues/16157", "created_at": "2026-01-03T13:35:52Z", "updated_at": "2026-10-07T19:48:22Z", "labels": [{"name": "bug"}, {"name": "platform:macos"}, {"name": "area:cost"}, {"name": "area:api"}, {"name": "oncall"}], "comments": 1499, "reactions": {"+1": 695}},
-  {"number": 15942, "title": "Add support for Visual Studio 2026 Integration", "html_url": "https://github.com/anthropics/claude-code/issues/15942", "created_at": "2026-01-01T02:42:34Z", "updated_at": "2026-10-16T17:57:38Z", "labels": [{"name": "enhancement"}, {"name": "platform:windows"}, {"name": "area:ide"}], "comments": 155, "reactions": {"+1": 470}},
-  {"number": 2511, "title": "Feature request: Connect Claude code to Claude projects ", "html_url": "https://github.com/anthropics/claude-code/issues/2511", "created_at": "2025-06-24T04:12:40Z", "updated_at": "2026-09-29T14:17:18Z", "labels": [{"name": "enhancement"}, {"name": "area:core"}], "comments": 52, "reactions": {"+1": 422}}
- ],
- "openai/codex|new": [
-  {"number": 48195, "title": "CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shouldn't be the default", "html_url": "https://github.com/openai/codex/issues/48195", "created_at": "2026-09-25T20:04:30Z", "updated_at": "2026-10-13T15:33:44Z", "labels": [{"name": "enhancement"}, {"name": "CLI"}, {"name": "app-server"}], "comments": 19, "reactions": {"+1": 185}},
-  {"number": 48237, "title": "unexpected status 401 Unauthorized issue", "html_url": "https://github.com/openai/codex/issues/48237", "created_at": "2026-09-25T22:54:35Z", "updated_at": "2026-09-28T17:13:09Z", "labels": [{"name": "bug"}, {"name": "auth"}], "comments": 97, "reactions": {"+1": 105}},
-  {"number": 44561, "title": "Turn off whimsy effect (astra stars) by default", "html_url": "https://github.com/openai/codex/issues/44561", "created_at": "2026-09-10T15:40:12Z", "updated_at": "2026-09-24T16:40:44Z", "labels": [{"name": "enhancement"}, {"name": "TUI"}, {"name": "CLI"}, {"name": "config"}], "comments": 33, "reactions": {"+1": 85}},
-  {"number": 47511, "title": "Missing button for git commit and push", "html_url": "https://github.com/openai/codex/issues/47511", "created_at": "2026-09-23T09:02:52Z", "updated_at": "2026-10-12T07:57:10Z", "labels": [{"name": "bug"}, {"name": "app"}], "comments": 19, "reactions": {"+1": 48}}
- ],
- "openai/codex|top": [
-  {"number": 8745, "title": "LSP integration (auto-detect + auto-install) for Codex CLI", "html_url": "https://github.com/openai/codex/issues/8745", "created_at": "2026-01-05T16:56:36Z", "updated_at": "2026-10-22T02:26:03Z", "labels": [{"name": "enhancement"}, {"name": "agent"}], "comments": 72, "reactions": {"+1": 503}},
-  {"number": 9203, "title": "Please make \"/undo\" back", "html_url": "https://github.com/openai/codex/issues/9203", "created_at": "2026-01-14T10:46:08Z", "updated_at": "2026-10-20T11:40:10Z", "labels": [{"name": "enhancement"}, {"name": "TUI"}, {"name": "session"}], "comments": 96, "reactions": {"+1": 487}},
-  {"number": 11626, "title": "CLI: Add /rewind checkpoint restore that reverts both chat context and Codex-applied code edits", "html_url": "https://github.com/openai/codex/issues/11626", "created_at": "2026-02-12T19:05:17Z", "updated_at": "2026-10-20T06:13:56Z", "labels": [{"name": "enhancement"}, {"name": "TUI"}], "comments": 49, "reactions": {"+1": 228}},
-  {"number": 17827, "title": "Customizable status line", "html_url": "https://github.com/openai/codex/issues/17827", "created_at": "2026-04-14T19:24:04Z", "updated_at": "2026-10-18T18:45:38Z", "labels": [{"name": "enhancement"}, {"name": "TUI"}, {"name": "config"}], "comments": 54, "reactions": {"+1": 205}},
-  {"number": 48195, "title": "CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shouldn't be the default", "html_url": "https://github.com/openai/codex/issues/48195", "created_at": "2026-09-25T20:04:30Z", "updated_at": "2026-10-13T15:33:44Z", "labels": [{"name": "enhancement"}, {"name": "CLI"}, {"name": "app-server"}], "comments": 19, "reactions": {"+1": 185}}
- ]
+ "anthropics/claude-code": {
+  "new": {
+   "issueCount": 2431,
+   "nodes": [
+    {
+     "id": "I_fixture_91870",
+     "number": 91870,
+     "title": "Mods - make Claude 10x more extensible",
+     "url": "https://github.com/anthropics/claude-code/issues/91870",
+     "createdAt": "2026-09-03T18:00:23Z",
+     "updatedAt": "2026-10-21T21:23:42Z",
+     "comments": {
+      "totalCount": 267
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "area:hooks"
+       },
+       {
+        "name": "area:plugins"
+       }
+      ]
+     },
+     "thumbsUp": 131,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z",
+      "2026-10-20T08:00:00Z",
+      "2026-10-20T05:00:00Z",
+      "2026-10-20T02:00:00Z",
+      "2026-10-19T23:00:00Z",
+      "2026-10-19T20:00:00Z",
+      "2026-10-19T17:00:00Z",
+      "2026-10-19T14:00:00Z",
+      "2026-10-19T11:00:00Z",
+      "2026-10-19T08:00:00Z",
+      "2026-10-19T05:00:00Z",
+      "2026-10-19T02:00:00Z",
+      "2026-10-18T23:00:00Z",
+      "2026-10-18T20:00:00Z",
+      "2026-10-18T17:00:00Z",
+      "2026-10-18T14:00:00Z",
+      "2026-10-18T11:00:00Z",
+      "2026-10-18T08:00:00Z",
+      "2026-10-18T05:00:00Z",
+      "2026-10-18T02:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_89673",
+     "number": 89673,
+     "title": "[FEATURE] Desktop app: option to make Enter insert a newline and Ctrl+Enter submit in the chat composer",
+     "url": "https://github.com/anthropics/claude-code/issues/89673",
+     "createdAt": "2026-08-26T01:06:27Z",
+     "updatedAt": "2026-10-21T13:12:48Z",
+     "comments": {
+      "totalCount": 14
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "area:desktop"
+       },
+       {
+        "name": "keybindings"
+       }
+      ]
+     },
+     "thumbsUp": 63,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_91650",
+     "number": 91650,
+     "title": "[BUG] Bash cd-compound-read guard prompts on absolute cd targets whenever a Read() deny rule exists (Windows Git Bash, 2.1.257-2.1.259)",
+     "url": "https://github.com/anthropics/claude-code/issues/91650",
+     "createdAt": "2026-09-02T23:10:05Z",
+     "updatedAt": "2026-09-05T01:10:26Z",
+     "comments": {
+      "totalCount": 10
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "bug"
+       },
+       {
+        "name": "has repro"
+       },
+       {
+        "name": "platform:windows"
+       },
+       {
+        "name": "area:bash"
+       },
+       {
+        "name": "area:permissions"
+       }
+      ]
+     },
+     "thumbsUp": 61,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_92984",
+     "number": 92984,
+     "title": "[BUG] Cowork (Windows): all Plan9 shares fail with \"Plan9 mount failed: invalid argument\" after Windows update KB5124008 (26200.9445) — uninstalling the KB fixes it",
+     "url": "https://github.com/anthropics/claude-code/issues/92984",
+     "createdAt": "2026-09-09T03:16:16Z",
+     "updatedAt": "2026-10-12T13:11:00Z",
+     "comments": {
+      "totalCount": 120
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "bug"
+       },
+       {
+        "name": "has repro"
+       },
+       {
+        "name": "platform:windows"
+       },
+       {
+        "name": "area:cowork"
+       }
+      ]
+     },
+     "thumbsUp": 58,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_102273",
+     "number": 102273,
+     "title": "[FEATURE] Desktop app (Code tab): end-of-turn \"next-step\" box with 1-2 answer buttons gets in the way of real discussion",
+     "url": "https://github.com/anthropics/claude-code/issues/102273",
+     "createdAt": "2026-10-15T04:20:17Z",
+     "updatedAt": "2026-10-21T10:26:36Z",
+     "comments": {
+      "totalCount": 18
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "area:ui"
+       },
+       {
+        "name": "area:desktop"
+       }
+      ]
+     },
+     "thumbsUp": 41,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_97854",
+     "number": 97854,
+     "title": "Auto mode: server-side safety classifier intermittently returns no verdict, blocking Bash and ScheduleWakeup entirely",
+     "url": "https://github.com/anthropics/claude-code/issues/97854",
+     "createdAt": "2026-09-28T11:34:47Z",
+     "updatedAt": "2026-10-18T13:50:14Z",
+     "comments": {
+      "totalCount": 31
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "bug"
+       },
+       {
+        "name": "duplicate"
+       },
+       {
+        "name": "area:permissions"
+       }
+      ]
+     },
+     "thumbsUp": 38,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_90708",
+     "number": 90708,
+     "title": "Desktop app: bring back the context-usage indicator (or make the footer widget configurable)",
+     "url": "https://github.com/anthropics/claude-code/issues/90708",
+     "createdAt": "2026-08-30T08:30:19Z",
+     "updatedAt": "2026-10-15T11:48:53Z",
+     "comments": {
+      "totalCount": 13
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "platform:windows"
+       },
+       {
+        "name": "area:statusline"
+       },
+       {
+        "name": "area:desktop"
+       }
+      ]
+     },
+     "thumbsUp": 25,
+     "recentThumbsUp": []
+    }
+   ]
+  },
+  "mid": {
+   "issueCount": 1874,
+   "nodes": [
+    {
+     "id": "I_fixture_45596",
+     "number": 45596,
+     "title": "Bring Back Buddy — A Consolidated Plea from the Community",
+     "url": "https://github.com/anthropics/claude-code/issues/45596",
+     "createdAt": "2026-04-09T05:52:29Z",
+     "updatedAt": "2026-10-22T02:07:58Z",
+     "comments": {
+      "totalCount": 282
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "duplicate"
+       },
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "area:tui"
+       },
+       {
+        "name": "area:skills"
+       }
+      ]
+     },
+     "thumbsUp": 1194,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z",
+      "2026-10-20T08:00:00Z",
+      "2026-10-20T05:00:00Z",
+      "2026-10-20T02:00:00Z",
+      "2026-10-19T23:00:00Z",
+      "2026-10-19T20:00:00Z",
+      "2026-10-19T17:00:00Z",
+      "2026-10-19T14:00:00Z",
+      "2026-10-19T11:00:00Z",
+      "2026-10-19T08:00:00Z",
+      "2026-10-19T05:00:00Z",
+      "2026-10-19T02:00:00Z",
+      "2026-10-18T23:00:00Z",
+      "2026-10-18T20:00:00Z",
+      "2026-10-18T17:00:00Z",
+      "2026-10-18T14:00:00Z",
+      "2026-10-18T11:00:00Z",
+      "2026-10-18T08:00:00Z",
+      "2026-10-18T05:00:00Z",
+      "2026-10-18T02:00:00Z",
+      "2026-10-17T23:00:00Z",
+      "2026-10-17T20:00:00Z",
+      "2026-10-17T17:00:00Z",
+      "2026-10-17T14:00:00Z",
+      "2026-10-17T11:00:00Z",
+      "2026-10-17T08:00:00Z",
+      "2026-10-17T05:00:00Z",
+      "2026-10-17T02:00:00Z",
+      "2026-10-16T23:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_36151",
+     "number": 36151,
+     "title": "[FEATURE] Multi-account switching in Claude Mobile app without shared email",
+     "url": "https://github.com/anthropics/claude-code/issues/36151",
+     "createdAt": "2026-03-19T10:34:27Z",
+     "updatedAt": "2026-09-29T14:58:12Z",
+     "comments": {
+      "totalCount": 188
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "invalid"
+       },
+       {
+        "name": "area:auth"
+       }
+      ]
+     },
+     "thumbsUp": 765,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_15942",
+     "number": 15942,
+     "title": "Add support for Visual Studio 2026 Integration",
+     "url": "https://github.com/anthropics/claude-code/issues/15942",
+     "createdAt": "2026-01-01T02:42:34Z",
+     "updatedAt": "2026-10-16T17:57:38Z",
+     "comments": {
+      "totalCount": 155
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "platform:windows"
+       },
+       {
+        "name": "area:ide"
+       }
+      ]
+     },
+     "thumbsUp": 470,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z",
+      "2026-10-20T08:00:00Z",
+      "2026-10-20T05:00:00Z",
+      "2026-10-20T02:00:00Z",
+      "2026-10-19T23:00:00Z",
+      "2026-10-19T20:00:00Z",
+      "2026-10-19T17:00:00Z",
+      "2026-10-19T14:00:00Z",
+      "2026-10-19T11:00:00Z",
+      "2026-10-19T08:00:00Z",
+      "2026-10-19T05:00:00Z",
+      "2026-10-19T02:00:00Z",
+      "2026-10-18T23:00:00Z",
+      "2026-10-18T20:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_999001",
+     "number": 999001,
+     "title": "(fixture) Mid-age request below the all-time top list, gaining fast",
+     "url": "https://github.com/anthropics/claude-code/issues/999001",
+     "createdAt": "2026-06-01T12:00:00Z",
+     "updatedAt": "2026-10-21T08:00:00Z",
+     "comments": {
+      "totalCount": 9
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       }
+      ]
+     },
+     "thumbsUp": 40,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z",
+      "2026-10-20T08:00:00Z",
+      "2026-10-20T05:00:00Z",
+      "2026-10-20T02:00:00Z"
+     ]
+    }
+   ]
+  },
+  "top": {
+   "issueCount": 9120,
+   "nodes": [
+    {
+     "id": "I_fixture_45596",
+     "number": 45596,
+     "title": "Bring Back Buddy — A Consolidated Plea from the Community",
+     "url": "https://github.com/anthropics/claude-code/issues/45596",
+     "createdAt": "2026-04-09T05:52:29Z",
+     "updatedAt": "2026-10-22T02:07:58Z",
+     "comments": {
+      "totalCount": 282
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "duplicate"
+       },
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "area:tui"
+       },
+       {
+        "name": "area:skills"
+       }
+      ]
+     },
+     "thumbsUp": 1194,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z",
+      "2026-10-20T08:00:00Z",
+      "2026-10-20T05:00:00Z",
+      "2026-10-20T02:00:00Z",
+      "2026-10-19T23:00:00Z",
+      "2026-10-19T20:00:00Z",
+      "2026-10-19T17:00:00Z",
+      "2026-10-19T14:00:00Z",
+      "2026-10-19T11:00:00Z",
+      "2026-10-19T08:00:00Z",
+      "2026-10-19T05:00:00Z",
+      "2026-10-19T02:00:00Z",
+      "2026-10-18T23:00:00Z",
+      "2026-10-18T20:00:00Z",
+      "2026-10-18T17:00:00Z",
+      "2026-10-18T14:00:00Z",
+      "2026-10-18T11:00:00Z",
+      "2026-10-18T08:00:00Z",
+      "2026-10-18T05:00:00Z",
+      "2026-10-18T02:00:00Z",
+      "2026-10-17T23:00:00Z",
+      "2026-10-17T20:00:00Z",
+      "2026-10-17T17:00:00Z",
+      "2026-10-17T14:00:00Z",
+      "2026-10-17T11:00:00Z",
+      "2026-10-17T08:00:00Z",
+      "2026-10-17T05:00:00Z",
+      "2026-10-17T02:00:00Z",
+      "2026-10-16T23:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_18435",
+     "number": 18435,
+     "title": "[FEATURE] Add the ability to manage multiple Claude accounts within the Claude Desktop app with easy switching between profiles.",
+     "url": "https://github.com/anthropics/claude-code/issues/18435",
+     "createdAt": "2026-01-15T22:31:59Z",
+     "updatedAt": "2026-10-21T14:33:43Z",
+     "comments": {
+      "totalCount": 213
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "area:auth"
+       },
+       {
+        "name": "area:ide"
+       },
+       {
+        "name": "area:desktop"
+       }
+      ]
+     },
+     "thumbsUp": 936,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_36151",
+     "number": 36151,
+     "title": "[FEATURE] Multi-account switching in Claude Mobile app without shared email",
+     "url": "https://github.com/anthropics/claude-code/issues/36151",
+     "createdAt": "2026-03-19T10:34:27Z",
+     "updatedAt": "2026-09-29T14:58:12Z",
+     "comments": {
+      "totalCount": 188
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "invalid"
+       },
+       {
+        "name": "area:auth"
+       }
+      ]
+     },
+     "thumbsUp": 765,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_16157",
+     "number": 16157,
+     "title": "[BUG] Instantly hitting usage limits with Max subscription",
+     "url": "https://github.com/anthropics/claude-code/issues/16157",
+     "createdAt": "2026-01-03T13:35:52Z",
+     "updatedAt": "2026-10-07T19:48:22Z",
+     "comments": {
+      "totalCount": 1499
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "bug"
+       },
+       {
+        "name": "platform:macos"
+       },
+       {
+        "name": "area:cost"
+       },
+       {
+        "name": "area:api"
+       },
+       {
+        "name": "oncall"
+       }
+      ]
+     },
+     "thumbsUp": 695,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_15942",
+     "number": 15942,
+     "title": "Add support for Visual Studio 2026 Integration",
+     "url": "https://github.com/anthropics/claude-code/issues/15942",
+     "createdAt": "2026-01-01T02:42:34Z",
+     "updatedAt": "2026-10-16T17:57:38Z",
+     "comments": {
+      "totalCount": 155
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "platform:windows"
+       },
+       {
+        "name": "area:ide"
+       }
+      ]
+     },
+     "thumbsUp": 470,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z",
+      "2026-10-20T08:00:00Z",
+      "2026-10-20T05:00:00Z",
+      "2026-10-20T02:00:00Z",
+      "2026-10-19T23:00:00Z",
+      "2026-10-19T20:00:00Z",
+      "2026-10-19T17:00:00Z",
+      "2026-10-19T14:00:00Z",
+      "2026-10-19T11:00:00Z",
+      "2026-10-19T08:00:00Z",
+      "2026-10-19T05:00:00Z",
+      "2026-10-19T02:00:00Z",
+      "2026-10-18T23:00:00Z",
+      "2026-10-18T20:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_2511",
+     "number": 2511,
+     "title": "Feature request: Connect Claude code to Claude projects ",
+     "url": "https://github.com/anthropics/claude-code/issues/2511",
+     "createdAt": "2025-06-24T04:12:40Z",
+     "updatedAt": "2026-09-29T14:17:18Z",
+     "comments": {
+      "totalCount": 52
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "area:core"
+       }
+      ]
+     },
+     "thumbsUp": 422,
+     "recentThumbsUp": []
+    }
+   ]
+  }
+ },
+ "openai/codex": {
+  "new": {
+   "issueCount": 1206,
+   "nodes": [
+    {
+     "id": "I_fixture_48195",
+     "number": 48195,
+     "title": "CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shouldn't be the default",
+     "url": "https://github.com/openai/codex/issues/48195",
+     "createdAt": "2026-09-25T20:04:30Z",
+     "updatedAt": "2026-10-13T15:33:44Z",
+     "comments": {
+      "totalCount": 19
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "CLI"
+       },
+       {
+        "name": "app-server"
+       }
+      ]
+     },
+     "thumbsUp": 185,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_48237",
+     "number": 48237,
+     "title": "unexpected status 401 Unauthorized issue",
+     "url": "https://github.com/openai/codex/issues/48237",
+     "createdAt": "2026-09-25T22:54:35Z",
+     "updatedAt": "2026-09-28T17:13:09Z",
+     "comments": {
+      "totalCount": 97
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "bug"
+       },
+       {
+        "name": "auth"
+       }
+      ]
+     },
+     "thumbsUp": 105,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z",
+      "2026-10-20T08:00:00Z",
+      "2026-10-20T05:00:00Z",
+      "2026-10-20T02:00:00Z",
+      "2026-10-19T23:00:00Z",
+      "2026-10-19T20:00:00Z",
+      "2026-10-19T17:00:00Z",
+      "2026-10-19T14:00:00Z",
+      "2026-10-19T11:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_44561",
+     "number": 44561,
+     "title": "Turn off whimsy effect (astra stars) by default",
+     "url": "https://github.com/openai/codex/issues/44561",
+     "createdAt": "2026-09-10T15:40:12Z",
+     "updatedAt": "2026-09-24T16:40:44Z",
+     "comments": {
+      "totalCount": 33
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "TUI"
+       },
+       {
+        "name": "CLI"
+       },
+       {
+        "name": "config"
+       }
+      ]
+     },
+     "thumbsUp": 85,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_47511",
+     "number": 47511,
+     "title": "Missing button for git commit and push",
+     "url": "https://github.com/openai/codex/issues/47511",
+     "createdAt": "2026-09-23T09:02:52Z",
+     "updatedAt": "2026-10-12T07:57:10Z",
+     "comments": {
+      "totalCount": 19
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "bug"
+       },
+       {
+        "name": "app"
+       }
+      ]
+     },
+     "thumbsUp": 48,
+     "recentThumbsUp": []
+    }
+   ]
+  },
+  "mid": {
+   "issueCount": 938,
+   "nodes": [
+    {
+     "id": "I_fixture_11626",
+     "number": 11626,
+     "title": "CLI: Add /rewind checkpoint restore that reverts both chat context and Codex-applied code edits",
+     "url": "https://github.com/openai/codex/issues/11626",
+     "createdAt": "2026-02-12T19:05:17Z",
+     "updatedAt": "2026-10-20T06:13:56Z",
+     "comments": {
+      "totalCount": 49
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "TUI"
+       }
+      ]
+     },
+     "thumbsUp": 228,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_17827",
+     "number": 17827,
+     "title": "Customizable status line",
+     "url": "https://github.com/openai/codex/issues/17827",
+     "createdAt": "2026-04-14T19:24:04Z",
+     "updatedAt": "2026-10-18T18:45:38Z",
+     "comments": {
+      "totalCount": 54
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "TUI"
+       },
+       {
+        "name": "config"
+       }
+      ]
+     },
+     "thumbsUp": 205,
+     "recentThumbsUp": []
+    }
+   ]
+  },
+  "top": {
+   "issueCount": 4410,
+   "nodes": [
+    {
+     "id": "I_fixture_8745",
+     "number": 8745,
+     "title": "LSP integration (auto-detect + auto-install) for Codex CLI",
+     "url": "https://github.com/openai/codex/issues/8745",
+     "createdAt": "2026-01-05T16:56:36Z",
+     "updatedAt": "2026-10-22T02:26:03Z",
+     "comments": {
+      "totalCount": 72
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "agent"
+       }
+      ]
+     },
+     "thumbsUp": 503,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z"
+     ]
+    },
+    {
+     "id": "I_fixture_9203",
+     "number": 9203,
+     "title": "Please make \"/undo\" back",
+     "url": "https://github.com/openai/codex/issues/9203",
+     "createdAt": "2026-01-14T10:46:08Z",
+     "updatedAt": "2026-10-20T11:40:10Z",
+     "comments": {
+      "totalCount": 96
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "TUI"
+       },
+       {
+        "name": "session"
+       }
+      ]
+     },
+     "thumbsUp": 487,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_11626",
+     "number": 11626,
+     "title": "CLI: Add /rewind checkpoint restore that reverts both chat context and Codex-applied code edits",
+     "url": "https://github.com/openai/codex/issues/11626",
+     "createdAt": "2026-02-12T19:05:17Z",
+     "updatedAt": "2026-10-20T06:13:56Z",
+     "comments": {
+      "totalCount": 49
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "TUI"
+       }
+      ]
+     },
+     "thumbsUp": 228,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_17827",
+     "number": 17827,
+     "title": "Customizable status line",
+     "url": "https://github.com/openai/codex/issues/17827",
+     "createdAt": "2026-04-14T19:24:04Z",
+     "updatedAt": "2026-10-18T18:45:38Z",
+     "comments": {
+      "totalCount": 54
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "TUI"
+       },
+       {
+        "name": "config"
+       }
+      ]
+     },
+     "thumbsUp": 205,
+     "recentThumbsUp": []
+    },
+    {
+     "id": "I_fixture_48195",
+     "number": 48195,
+     "title": "CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shouldn't be the default",
+     "url": "https://github.com/openai/codex/issues/48195",
+     "createdAt": "2026-09-25T20:04:30Z",
+     "updatedAt": "2026-10-13T15:33:44Z",
+     "comments": {
+      "totalCount": 19
+     },
+     "labels": {
+      "nodes": [
+       {
+        "name": "enhancement"
+       },
+       {
+        "name": "CLI"
+       },
+       {
+        "name": "app-server"
+       }
+      ]
+     },
+     "thumbsUp": 185,
+     "recentThumbsUp": [
+      "2026-10-21T20:00:00Z",
+      "2026-10-21T17:00:00Z",
+      "2026-10-21T14:00:00Z",
+      "2026-10-21T11:00:00Z",
+      "2026-10-21T08:00:00Z",
+      "2026-10-21T05:00:00Z",
+      "2026-10-21T02:00:00Z",
+      "2026-10-20T23:00:00Z",
+      "2026-10-20T20:00:00Z",
+      "2026-10-20T17:00:00Z",
+      "2026-10-20T14:00:00Z",
+      "2026-10-20T11:00:00Z"
+     ]
+    }
+   ]
+  }
+ }
 }

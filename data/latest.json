@@ -1,0 +1,302 @@
+{
+ "generated_on": "2026-10-22",
+ "fastest_rising": [],
+ "new_and_climbing": [
+  {
+   "repo": "openai/codex",
+   "number": 54677,
+   "title": "[Codex Desktop][Windows] Weekly quota jumped 67 points in 38 seconds (Oct 16, 2026; 18:10 UTC)",
+   "url": "https://github.com/openai/codex/issues/54677",
+   "created_at": "2026-10-16T19:02:24Z",
+   "updated_at": "2026-10-22T10:51:35Z",
+   "labels": [
+    "bug",
+    "windows-os",
+    "rate-limits",
+    "app"
+   ],
+   "comments": 46,
+   "thumbs_up": 42,
+   "age_days": 5.2,
+   "velocity": 8.07,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "openai/codex",
+   "number": 48195,
+   "title": "CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shouldn't be the default",
+   "url": "https://github.com/openai/codex/issues/48195",
+   "created_at": "2026-09-25T20:04:30Z",
+   "updated_at": "2026-10-13T15:33:44Z",
+   "labels": [
+    "enhancement",
+    "CLI",
+    "app-server"
+   ],
+   "comments": 19,
+   "thumbs_up": 185,
+   "age_days": 26.2,
+   "velocity": 7.07,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102273,
+   "title": "[FEATURE] Desktop app (Code tab): end-of-turn \"next-step\" box with 1-2 answer buttons gets in the way of real discussion",
+   "url": "https://github.com/anthropics/claude-code/issues/102273",
+   "created_at": "2026-10-15T04:20:17Z",
+   "updated_at": "2026-10-21T10:26:36Z",
+   "labels": [
+    "enhancement",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 18,
+   "thumbs_up": 41,
+   "age_days": 6.8,
+   "velocity": 6.01,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "openai/codex",
+   "number": 54841,
+   "title": "Work mode blocks message submission in BYOK mode when local browser/computer tools are enabled",
+   "url": "https://github.com/openai/codex/issues/54841",
+   "created_at": "2026-10-17T10:40:33Z",
+   "updated_at": "2026-10-22T05:00:16Z",
+   "labels": [
+    "bug",
+    "auth",
+    "custom-model",
+    "app",
+    "computer-use",
+    "browser"
+   ],
+   "comments": 36,
+   "thumbs_up": 26,
+   "age_days": 4.6,
+   "velocity": 5.71,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "openai/codex",
+   "number": 48237,
+   "title": "unexpected status 401 Unauthorized issue",
+   "url": "https://github.com/openai/codex/issues/48237",
+   "created_at": "2026-09-25T22:54:35Z",
+   "updated_at": "2026-09-28T17:13:09Z",
+   "labels": [
+    "bug",
+    "auth"
+   ],
+   "comments": 97,
+   "thumbs_up": 105,
+   "age_days": 26.0,
+   "velocity": 4.03,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102264,
+   "title": "[FEATURE] Bring back the usage stats panel on the Desktop new session screen",
+   "url": "https://github.com/anthropics/claude-code/issues/102264",
+   "created_at": "2026-10-15T03:30:00Z",
+   "updated_at": "2026-10-15T03:31:16Z",
+   "labels": [
+    "enhancement",
+    "platform:windows",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 0,
+   "thumbs_up": 25,
+   "age_days": 6.9,
+   "velocity": 3.65,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102150,
+   "title": "[BUG] Desktop 2.37337.1 (Windows, Store/MSIX): built-in \"Routines\" sidebar section is forced hidden on every launch, and there is no UI toggle to show it",
+   "url": "https://github.com/anthropics/claude-code/issues/102150",
+   "created_at": "2026-10-14T19:17:25Z",
+   "updated_at": "2026-10-20T16:39:56Z",
+   "labels": [
+    "bug",
+    "has repro",
+    "platform:windows",
+    "regression",
+    "area:ui",
+    "area:desktop",
+    "area:routines"
+   ],
+   "comments": 19,
+   "thumbs_up": 25,
+   "age_days": 7.2,
+   "velocity": 3.47,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102132,
+   "title": "[BUG] Desktop Code tab: next-step box (wrap_up with an ask) can end the turn before the reply is written",
+   "url": "https://github.com/anthropics/claude-code/issues/102132",
+   "created_at": "2026-10-14T18:24:32Z",
+   "updated_at": "2026-10-21T11:28:10Z",
+   "labels": [
+    "bug",
+    "platform:windows",
+    "area:tools",
+    "area:desktop"
+   ],
+   "comments": 19,
+   "thumbs_up": 25,
+   "age_days": 7.2,
+   "velocity": 3.46,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102098,
+   "title": "[BUG] Desktop Code tab: stats view (activity heatmap, streaks, per-model tokens) no longer available",
+   "url": "https://github.com/anthropics/claude-code/issues/102098",
+   "created_at": "2026-10-14T16:32:52Z",
+   "updated_at": "2026-10-20T09:12:33Z",
+   "labels": [
+    "bug",
+    "platform:macos",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 5,
+   "thumbs_up": 24,
+   "age_days": 7.3,
+   "velocity": 3.28,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102130,
+   "title": "[FEATURE] Bring back the usage overview card removed from the desktop app's new-session screen",
+   "url": "https://github.com/anthropics/claude-code/issues/102130",
+   "created_at": "2026-10-14T18:22:50Z",
+   "updated_at": "2026-10-20T15:15:31Z",
+   "labels": [
+    "enhancement",
+    "platform:macos",
+    "area:desktop"
+   ],
+   "comments": 3,
+   "thumbs_up": 23,
+   "age_days": 7.2,
+   "velocity": 3.18,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102136,
+   "title": "[BUG] Permission prompt defaults to \"Always allow\" instead of \"Allow once\" - dangerous UX regression",
+   "url": "https://github.com/anthropics/claude-code/issues/102136",
+   "created_at": "2026-10-14T18:29:54Z",
+   "updated_at": "2026-10-19T10:59:33Z",
+   "labels": [
+    "bug",
+    "platform:macos",
+    "user-experience",
+    "regression",
+    "area:permissions",
+    "area:desktop"
+   ],
+   "comments": 10,
+   "thumbs_up": 21,
+   "age_days": 7.2,
+   "velocity": 2.9,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 91870,
+   "title": "Mods - make Claude 10x more extensible",
+   "url": "https://github.com/anthropics/claude-code/issues/91870",
+   "created_at": "2026-09-03T18:00:23Z",
+   "updated_at": "2026-10-21T21:23:42Z",
+   "labels": [
+    "enhancement",
+    "area:hooks",
+    "area:plugins"
+   ],
+   "comments": 267,
+   "thumbs_up": 131,
+   "age_days": 48.2,
+   "velocity": 2.72,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "openai/codex",
+   "number": 51601,
+   "title": "Windows app 26.1002.51308: sandbox setup fails with sharing violation when validating its own active runtime",
+   "url": "https://github.com/openai/codex/issues/51601",
+   "created_at": "2026-10-07T06:33:31Z",
+   "updated_at": "2026-10-15T03:45:58Z",
+   "labels": [
+    "bug",
+    "windows-os",
+    "sandbox",
+    "app"
+   ],
+   "comments": 124,
+   "thumbs_up": 31,
+   "age_days": 14.7,
+   "velocity": 2.11,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "openai/codex",
+   "number": 44561,
+   "title": "Turn off whimsy effect (astra stars) by default",
+   "url": "https://github.com/openai/codex/issues/44561",
+   "created_at": "2026-09-10T15:40:12Z",
+   "updated_at": "2026-09-24T16:40:44Z",
+   "labels": [
+    "enhancement",
+    "TUI",
+    "CLI",
+    "config"
+   ],
+   "comments": 33,
+   "thumbs_up": 85,
+   "age_days": 41.3,
+   "velocity": 2.06,
+   "gain": null,
+   "gain_per_day": null
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102142,
+   "title": "[BUG] Desktop 2.37337.1: Code tab Routines section hidden after the sidebar update, reset to hidden on every launch",
+   "url": "https://github.com/anthropics/claude-code/issues/102142",
+   "created_at": "2026-10-14T18:53:04Z",
+   "updated_at": "2026-10-22T00:19:52Z",
+   "labels": [],
+   "comments": 20,
+   "thumbs_up": 14,
+   "age_days": 7.2,
+   "velocity": 1.94,
+   "gain": null,
+   "gain_per_day": null
+  }
+ ]
+}

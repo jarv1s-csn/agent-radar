@@ -1,0 +1,61 @@
+# Supply-side map: how many open-source AI projects serve each kind of use.
+#
+# Categories follow OpenAI Signals' coarse topics, so supply can be set next to
+# what people actually use ChatGPT for. Each category lists GitHub topics that
+# only AI projects carry (generic topics such as "education" are left out on
+# purpose). Recall is therefore partial: a project without these topics is not
+# counted. Edit freely; every result records which topic matched.
+
+[settings]
+# Only repositories with at least this many stars are counted.
+min_stars = 100
+# Repositories whose name starts with these words, or that carry these topics,
+# are lists and tutorials rather than tools, and are skipped.
+skip_name_prefixes = ["awesome"]
+skip_topics = ["awesome", "awesome-list", "tutorial", "course"]
+
+[categories.technical_help]
+label = "技术帮助 Technical help (coding, math, data)"
+signals_topic = "Technical help"
+topics = ["coding-agent", "ai-coding", "ai-coding-assistant", "coding-assistant",
+          "code-generation", "ai-code-review", "ai-programming", "vibe-coding",
+          "text-to-sql", "ai-data-analysis", "claude-code"]
+
+[categories.writing]
+label = "写作 Writing"
+signals_topic = "Writing"
+topics = ["ai-writing", "ai-writer", "writing-assistant", "ai-writing-assistant",
+          "ai-translation", "llm-translation", "ai-copywriting"]
+
+[categories.practical_guidance]
+label = "实用指导 Practical guidance (tutoring, health, how-to)"
+signals_topic = "Practical Guidance"
+topics = ["ai-tutor", "ai-education", "ai-teacher", "medical-llm", "healthcare-ai",
+          "ai-health", "ai-doctor", "legal-ai", "ai-legal", "finance-llm",
+          "ai-finance", "ai-fitness"]
+
+[categories.seeking_information]
+label = "查信息 Seeking information (search, research, shopping)"
+signals_topic = "Seeking information"
+topics = ["ai-search", "ai-search-engine", "deep-research", "perplexity",
+          "answer-engine", "research-agent", "ai-shopping", "shopping-assistant"]
+
+[categories.self_expression]
+label = "自我表达 Self-expression (companion, role-play, emotional support)"
+signals_topic = "Self-expression"
+topics = ["ai-companion", "virtual-companion", "roleplay", "ai-roleplay",
+          "character-ai", "sillytavern", "mental-health-chatbot"]
+
+[categories.multimedia]
+label = "多媒体 Multimedia (image, video, audio)"
+signals_topic = "Multimedia"
+topics = ["text-to-image", "image-generation", "stable-diffusion", "comfyui",
+          "ai-art", "text-to-video", "video-generation", "ai-video",
+          "text-to-speech", "voice-cloning", "music-generation", "ai-music"]
+
+# Not a ChatGPT use category: the building blocks developers make for each
+# other. Kept as a reference point for where open-source effort goes.
+[categories.agent_infrastructure]
+label = "Agent 基础设施 Agent infrastructure (reference)"
+topics = ["ai-agents", "agent-framework", "multi-agent", "mcp-server", "mcp",
+          "rag", "llm-inference", "llmops"]

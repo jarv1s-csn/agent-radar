@@ -1,0 +1,44 @@
+name: supply
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shares the radar group so the two workflows never push at the same time.
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test
+        run: python -m unittest discover -s tests
+
+      # Exits non-zero and writes nothing if any search fails.
+      - name: Count open-source AI projects by use
+        run: python supply.py --config supply.toml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit dataset and summary
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/supply reports
+          if git diff --cached --quiet; then
+            echo "nothing to commit"
+          else
+            git commit -m "supply: $(date -u +%F)"
+            git pull --rebase
+            git push
+          fi

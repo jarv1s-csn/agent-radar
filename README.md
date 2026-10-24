@@ -61,6 +61,11 @@ python -m unittest discover -s tests
 `.github/workflows/radar.yml` 每周一自动运行：先跑测试，再扫描，成功后把快照和报告提交回仓库。用的是 Actions 自带的 `GITHUB_TOKEN`。扫描失败时不会提交，运行记录显示为失败。  
 The workflow runs every Monday: tests first, then the scan, then it commits the snapshot and report. It uses the built-in Actions `GITHUB_TOKEN`. A failed scan commits nothing and the run shows as failed.
 
+## 供给侧统计 · Supply side
+
+`supply.py` 按用途统计 GitHub 上的 AI 开源项目，用途分类对齐 OpenAI Signals 的消息主题，方便和“人们实际拿 AI 做什么”放在一起比较。每个类别对应一组只有 AI 项目才会打的 topic，定义在 `supply.toml`。在 Actions 页面手动运行 `supply`，结果写入 `data/supply/` 和 `reports/supply-YYYY-MM-DD.md`。  
+`supply.py` counts open-source AI projects on GitHub by the kind of use they serve, with categories aligned to OpenAI Signals' message topics. Each category is a set of AI-specific topics defined in `supply.toml`. Run the `supply` workflow by hand; results go to `data/supply/` and `reports/supply-YYYY-MM-DD.md`.
+
 ## 换一个生态 · Point it at another ecosystem
 
 编辑 `radar.toml` 里的 `[[repos]]` 即可，任何 GitHub 项目都适用。窗口大小、候选池大小、label 词表也都在这个文件里。  

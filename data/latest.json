@@ -1,45 +1,45 @@
 {
- "generated_at": "2026-10-22T12:47:28+00:00",
+ "generated_at": "2026-10-26T06:09:08+00:00",
  "gain_days": 7,
  "fastest_rising": [
-  {
-   "repo": "anthropics/claude-code",
-   "number": 102273,
-   "title": "[FEATURE] Desktop app (Code tab): end-of-turn \"next-step\" box with 1-2 answer buttons gets in the way of real discussion",
-   "url": "https://github.com/anthropics/claude-code/issues/102273",
-   "created_at": "2026-10-15T04:20:17Z",
-   "updated_at": "2026-10-21T10:26:36Z",
-   "labels": [
-    "enhancement",
-    "area:ui",
-    "area:desktop"
-   ],
-   "comments": 18,
-   "thumbs_up": 41,
-   "gain": 39,
-   "kind": "request",
-   "age_days": 7.4,
-   "velocity": 5.58
-  },
   {
    "repo": "anthropics/claude-code",
    "number": 18435,
    "title": "[FEATURE] Add the ability to manage multiple Claude accounts within the Claude Desktop app with easy switching between profiles.",
    "url": "https://github.com/anthropics/claude-code/issues/18435",
    "created_at": "2026-01-15T22:31:59Z",
-   "updated_at": "2026-10-21T14:33:43Z",
+   "updated_at": "2026-10-24T18:11:05Z",
    "labels": [
     "enhancement",
     "area:auth",
     "area:ide",
     "area:desktop"
    ],
-   "comments": 213,
-   "thumbs_up": 938,
-   "gain": 34,
+   "comments": 217,
+   "thumbs_up": 951,
+   "gain": 36,
    "kind": "request",
-   "age_days": 279.6,
-   "velocity": 3.35
+   "age_days": 283.3,
+   "velocity": 3.36
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102273,
+   "title": "[FEATURE] Desktop app (Code tab): end-of-turn \"next-step\" box with 1-2 answer buttons gets in the way of real discussion",
+   "url": "https://github.com/anthropics/claude-code/issues/102273",
+   "created_at": "2026-10-15T04:20:17Z",
+   "updated_at": "2026-10-24T14:29:37Z",
+   "labels": [
+    "enhancement",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 22,
+   "thumbs_up": 49,
+   "gain": 31,
+   "kind": "request",
+   "age_days": 11.1,
+   "velocity": 4.42
   },
   {
    "repo": "anthropics/claude-code",
@@ -55,11 +55,11 @@
     "area:desktop"
    ],
    "comments": 0,
-   "thumbs_up": 26,
-   "gain": 25,
+   "thumbs_up": 41,
+   "gain": 31,
    "kind": "request",
-   "age_days": 7.4,
-   "velocity": 3.52
+   "age_days": 11.1,
+   "velocity": 3.69
   },
   {
    "repo": "anthropics/claude-code",
@@ -67,89 +67,18 @@
    "title": "[FEATURE] Desktop app: option to make Enter insert a newline and Ctrl+Enter submit in the chat composer",
    "url": "https://github.com/anthropics/claude-code/issues/89673",
    "created_at": "2026-08-26T01:06:27Z",
-   "updated_at": "2026-10-22T12:30:59Z",
+   "updated_at": "2026-10-22T16:48:38Z",
    "labels": [
     "enhancement",
     "area:desktop",
     "keybindings"
    ],
-   "comments": 15,
-   "thumbs_up": 64,
-   "gain": 19,
-   "kind": "request",
-   "age_days": 57.5,
-   "velocity": 1.11
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 102130,
-   "title": "[FEATURE] Bring back the usage overview card removed from the desktop app's new-session screen",
-   "url": "https://github.com/anthropics/claude-code/issues/102130",
-   "created_at": "2026-10-14T18:22:50Z",
-   "updated_at": "2026-10-20T15:15:31Z",
-   "labels": [
-    "enhancement",
-    "platform:macos",
-    "area:desktop"
-   ],
-   "comments": 3,
-   "thumbs_up": 23,
+   "comments": 16,
+   "thumbs_up": 70,
    "gain": 18,
    "kind": "request",
-   "age_days": 7.8,
-   "velocity": 2.96
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 84862,
-   "title": "[FEATURE] Passkey (WebAuthn) sign-in for Claude accounts, across every surface",
-   "url": "https://github.com/anthropics/claude-code/issues/84862",
-   "created_at": "2026-08-07T16:25:38Z",
-   "updated_at": "2026-10-19T11:06:49Z",
-   "labels": [
-    "enhancement",
-    "area:auth"
-   ],
-   "comments": 20,
-   "thumbs_up": 127,
-   "gain": 17,
-   "kind": "request",
-   "age_days": 75.8,
-   "velocity": 1.67
-  },
-  {
-   "repo": "openai/codex",
-   "number": 28931,
-   "title": "Auto Resume /Goal after limit reached once limit is reset (5h)",
-   "url": "https://github.com/openai/codex/issues/28931",
-   "created_at": "2026-06-18T15:54:23Z",
-   "updated_at": "2026-10-21T08:17:20Z",
-   "labels": [
-    "enhancement",
-    "rate-limits",
-    "app"
-   ],
-   "comments": 12,
-   "thumbs_up": 62,
-   "gain": 13,
-   "kind": "request",
-   "age_days": 125.9,
-   "velocity": 0.49
-  },
-  {
-   "repo": "anomalyco/opencode",
-   "number": 41969,
-   "title": "[FEATURE]: Publish exact model versions/checkpoints for Go plan models (e.g. whether deepseek-v4-flash serves 0731)",
-   "url": "https://github.com/anomalyco/opencode/issues/41969",
-   "created_at": "2026-08-12T08:14:56Z",
-   "updated_at": "2026-10-20T23:07:59Z",
-   "labels": [],
-   "comments": 15,
-   "thumbs_up": 13,
-   "gain": 13,
-   "kind": "request",
-   "age_days": 71.2,
-   "velocity": 0.18
+   "age_days": 61.2,
+   "velocity": 1.14
   },
   {
    "repo": "anomalyco/opencode",
@@ -164,86 +93,141 @@
     "2.0"
    ],
    "comments": 9,
-   "thumbs_up": 23,
+   "thumbs_up": 27,
+   "gain": 16,
+   "kind": "request",
+   "age_days": 94.6,
+   "velocity": 0.29
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 27302,
+   "title": "[FEATURE] Support multiple Connector accounts (same connector, different accounts) in Claude and Claude Code on the web (claude.ai/code)",
+   "url": "https://github.com/anthropics/claude-code/issues/27302",
+   "created_at": "2026-02-21T02:14:14Z",
+   "updated_at": "2026-10-25T05:00:41Z",
+   "labels": [
+    "enhancement",
+    "area:auth"
+   ],
+   "comments": 282,
+   "thumbs_up": 428,
+   "gain": 13,
+   "kind": "request",
+   "age_days": 247.2,
+   "velocity": 1.73
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 33932,
+   "title": "[FEATURE] VS Code Extension: Diff review UI similar to GitHub Copilot Edits Review",
+   "url": "https://github.com/anthropics/claude-code/issues/33932",
+   "created_at": "2026-03-13T10:01:09Z",
+   "updated_at": "2026-10-24T20:49:15Z",
+   "labels": [
+    "enhancement",
+    "area:ide",
+    "platform:vscode"
+   ],
+   "comments": 45,
+   "thumbs_up": 219,
    "gain": 12,
    "kind": "request",
-   "age_days": 90.9,
-   "velocity": 0.25
+   "age_days": 226.8,
+   "velocity": 0.97
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 47509,
+   "title": "feat: Team plan needs a Max 20x equivalent tier for power users",
+   "url": "https://github.com/anthropics/claude-code/issues/47509",
+   "created_at": "2026-04-13T16:40:59Z",
+   "updated_at": "2026-10-25T06:28:09Z",
+   "labels": [
+    "enhancement",
+    "area:cost"
+   ],
+   "comments": 68,
+   "thumbs_up": 188,
+   "gain": 12,
+   "kind": "request",
+   "age_days": 195.6,
+   "velocity": 0.96
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 79305,
+   "title": "Desktop app: support custom themes / accent colors (parity with CLI custom theme system)",
+   "url": "https://github.com/anthropics/claude-code/issues/79305",
+   "created_at": "2026-07-20T04:12:11Z",
+   "updated_at": "2026-10-23T09:25:22Z",
+   "labels": [
+    "enhancement",
+    "platform:windows",
+    "platform:macos",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 23,
+   "thumbs_up": 75,
+   "gain": 12,
+   "kind": "request",
+   "age_days": 98.1,
+   "velocity": 0.76
   },
   {
    "repo": "openai/codex",
-   "number": 21073,
-   "title": "Feature Request: Auto-resume CLI session when usage limit resets",
-   "url": "https://github.com/openai/codex/issues/21073",
-   "created_at": "2026-05-04T20:34:47Z",
-   "updated_at": "2026-10-22T11:22:07Z",
+   "number": 28931,
+   "title": "Auto Resume /Goal after limit reached once limit is reset (5h)",
+   "url": "https://github.com/openai/codex/issues/28931",
+   "created_at": "2026-06-18T15:54:23Z",
+   "updated_at": "2026-10-23T01:34:05Z",
    "labels": [
     "enhancement",
     "rate-limits",
-    "enterprise"
+    "app"
    ],
-   "comments": 22,
-   "thumbs_up": 87,
+   "comments": 14,
+   "thumbs_up": 67,
    "gain": 11,
    "kind": "request",
-   "age_days": 170.7,
-   "velocity": 0.51
+   "age_days": 129.6,
+   "velocity": 0.52
   },
   {
-   "repo": "anthropics/claude-code",
-   "number": 102277,
-   "title": "[FEATURE] Include current git branch (vcs.ref.head.name) on all OTel events",
-   "url": "https://github.com/anthropics/claude-code/issues/102277",
-   "created_at": "2026-10-15T04:44:04Z",
-   "updated_at": "2026-10-15T04:50:48Z",
-   "labels": [
-    "enhancement",
-    "area:core"
-   ],
-   "comments": 0,
-   "thumbs_up": 11,
+   "repo": "anomalyco/opencode",
+   "number": 41969,
+   "title": "[FEATURE]: Publish exact model versions/checkpoints for Go plan models (e.g. whether deepseek-v4-flash serves 0731)",
+   "url": "https://github.com/anomalyco/opencode/issues/41969",
+   "created_at": "2026-08-12T08:14:56Z",
+   "updated_at": "2026-10-25T09:40:47Z",
+   "labels": [],
+   "comments": 16,
+   "thumbs_up": 14,
    "gain": 11,
    "kind": "request",
-   "age_days": 7.3,
-   "velocity": 1.5
+   "age_days": 74.9,
+   "velocity": 0.19
   },
   {
    "repo": "anthropics/claude-code",
-   "number": 23134,
-   "title": "Feature Request: Option to disable paste text collapse in input field",
-   "url": "https://github.com/anthropics/claude-code/issues/23134",
-   "created_at": "2026-02-04T16:51:31Z",
-   "updated_at": "2026-10-19T11:10:33Z",
+   "number": 102952,
+   "title": "[FEATURE] Bring back the glowing code-glyph ripple background on the desktop home screen",
+   "url": "https://github.com/anthropics/claude-code/issues/102952",
+   "created_at": "2026-10-17T08:20:56Z",
+   "updated_at": "2026-10-25T18:23:25Z",
    "labels": [
     "enhancement",
-    "area:tui"
+    "platform:windows",
+    "area:ui",
+    "area:desktop"
    ],
-   "comments": 55,
-   "thumbs_up": 156,
-   "gain": 10,
+   "comments": 8,
+   "thumbs_up": 12,
+   "gain": 11,
    "kind": "request",
-   "age_days": 259.8,
-   "velocity": 0.6
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 31005,
-   "title": "Support for AGENTS.md and .agents/skills/, the community has been asking since August 2025",
-   "url": "https://github.com/anthropics/claude-code/issues/31005",
-   "created_at": "2026-03-05T09:26:39Z",
-   "updated_at": "2026-10-20T14:07:34Z",
-   "labels": [
-    "duplicate",
-    "enhancement",
-    "area:core",
-    "memory"
-   ],
-   "comments": 36,
-   "thumbs_up": 420,
-   "gain": 9,
-   "kind": "request",
-   "age_days": 231.1,
-   "velocity": 1.82
+   "age_days": 8.9,
+   "velocity": 1.35
   },
   {
    "repo": "anthropics/claude-code",
@@ -251,17 +235,17 @@
    "title": "[FEATURE] Project-scoped session name prefix and color in settings.json (16th filing, please triage instead of stale-closing)",
    "url": "https://github.com/anthropics/claude-code/issues/96309",
    "created_at": "2026-09-23T10:14:02Z",
-   "updated_at": "2026-10-22T08:22:01Z",
+   "updated_at": "2026-10-22T15:22:26Z",
    "labels": [
     "enhancement",
     "area:tui"
    ],
-   "comments": 3,
-   "thumbs_up": 11,
-   "gain": 9,
+   "comments": 4,
+   "thumbs_up": 12,
+   "gain": 10,
    "kind": "request",
-   "age_days": 29.1,
-   "velocity": 0.38
+   "age_days": 32.8,
+   "velocity": 0.37
   },
   {
    "repo": "anthropics/claude-code",
@@ -275,11 +259,29 @@
     "area:auth"
    ],
    "comments": 188,
-   "thumbs_up": 765,
-   "gain": 8,
+   "thumbs_up": 769,
+   "gain": 9,
    "kind": "request",
-   "age_days": 217.1,
-   "velocity": 3.52
+   "age_days": 220.8,
+   "velocity": 3.48
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 84862,
+   "title": "[FEATURE] Passkey (WebAuthn) sign-in for Claude accounts, across every surface",
+   "url": "https://github.com/anthropics/claude-code/issues/84862",
+   "created_at": "2026-08-07T16:25:38Z",
+   "updated_at": "2026-10-24T12:01:17Z",
+   "labels": [
+    "enhancement",
+    "area:auth"
+   ],
+   "comments": 21,
+   "thumbs_up": 131,
+   "gain": 9,
+   "kind": "request",
+   "age_days": 79.6,
+   "velocity": 1.65
   }
  ],
  "new_and_climbing": [
@@ -296,11 +298,11 @@
     "app-server"
    ],
    "comments": 19,
-   "thumbs_up": 185,
-   "gain": 6,
+   "thumbs_up": 186,
+   "gain": 1,
    "kind": "request",
-   "age_days": 26.7,
-   "velocity": 6.93
+   "age_days": 30.4,
+   "velocity": 6.11
   },
   {
    "repo": "anthropics/claude-code",
@@ -308,18 +310,18 @@
    "title": "[FEATURE] Desktop app (Code tab): end-of-turn \"next-step\" box with 1-2 answer buttons gets in the way of real discussion",
    "url": "https://github.com/anthropics/claude-code/issues/102273",
    "created_at": "2026-10-15T04:20:17Z",
-   "updated_at": "2026-10-21T10:26:36Z",
+   "updated_at": "2026-10-24T14:29:37Z",
    "labels": [
     "enhancement",
     "area:ui",
     "area:desktop"
    ],
-   "comments": 18,
-   "thumbs_up": 41,
-   "gain": 39,
+   "comments": 22,
+   "thumbs_up": 49,
+   "gain": 31,
    "kind": "request",
-   "age_days": 7.4,
-   "velocity": 5.58
+   "age_days": 11.1,
+   "velocity": 4.42
   },
   {
    "repo": "anthropics/claude-code",
@@ -335,30 +337,11 @@
     "area:desktop"
    ],
    "comments": 0,
-   "thumbs_up": 26,
-   "gain": 25,
+   "thumbs_up": 41,
+   "gain": 31,
    "kind": "request",
-   "age_days": 7.4,
-   "velocity": 3.52
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 102130,
-   "title": "[FEATURE] Bring back the usage overview card removed from the desktop app's new-session screen",
-   "url": "https://github.com/anthropics/claude-code/issues/102130",
-   "created_at": "2026-10-14T18:22:50Z",
-   "updated_at": "2026-10-20T15:15:31Z",
-   "labels": [
-    "enhancement",
-    "platform:macos",
-    "area:desktop"
-   ],
-   "comments": 3,
-   "thumbs_up": 23,
-   "gain": 18,
-   "kind": "request",
-   "age_days": 7.8,
-   "velocity": 2.96
+   "age_days": 11.1,
+   "velocity": 3.69
   },
   {
    "repo": "anthropics/claude-code",
@@ -366,18 +349,18 @@
    "title": "Mods - make Claude 10x more extensible",
    "url": "https://github.com/anthropics/claude-code/issues/91870",
    "created_at": "2026-09-03T18:00:23Z",
-   "updated_at": "2026-10-21T21:23:42Z",
+   "updated_at": "2026-10-25T19:26:56Z",
    "labels": [
     "enhancement",
     "area:hooks",
     "area:plugins"
    ],
-   "comments": 267,
+   "comments": 271,
    "thumbs_up": 131,
    "gain": 0,
    "kind": "request",
-   "age_days": 48.8,
-   "velocity": 2.69
+   "age_days": 52.5,
+   "velocity": 2.49
   },
   {
    "repo": "openai/codex",
@@ -396,8 +379,48 @@
    "thumbs_up": 85,
    "gain": 0,
    "kind": "request",
-   "age_days": 41.9,
-   "velocity": 2.03
+   "age_days": 45.6,
+   "velocity": 1.86
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102952,
+   "title": "[FEATURE] Bring back the glowing code-glyph ripple background on the desktop home screen",
+   "url": "https://github.com/anthropics/claude-code/issues/102952",
+   "created_at": "2026-10-17T08:20:56Z",
+   "updated_at": "2026-10-25T18:23:25Z",
+   "labels": [
+    "enhancement",
+    "platform:windows",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 8,
+   "thumbs_up": 12,
+   "gain": 11,
+   "kind": "request",
+   "age_days": 8.9,
+   "velocity": 1.35
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 100216,
+   "title": "[FEATURE] Desktop sidebar: option to show forks as top-level sessions instead of nested under the parent",
+   "url": "https://github.com/anthropics/claude-code/issues/100216",
+   "created_at": "2026-10-07T12:20:02Z",
+   "updated_at": "2026-10-23T20:21:36Z",
+   "labels": [
+    "enhancement",
+    "platform:windows",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 10,
+   "thumbs_up": 20,
+   "gain": 5,
+   "kind": "request",
+   "age_days": 18.7,
+   "velocity": 1.07
   },
   {
    "repo": "anthropics/claude-code",
@@ -412,10 +435,10 @@
    ],
    "comments": 0,
    "thumbs_up": 11,
-   "gain": 11,
+   "gain": 0,
    "kind": "request",
-   "age_days": 7.3,
-   "velocity": 1.5
+   "age_days": 11.1,
+   "velocity": 0.99
   },
   {
    "repo": "anthropics/claude-code",
@@ -426,11 +449,11 @@
    "updated_at": "2026-10-19T08:37:17Z",
    "labels": [],
    "comments": 11,
-   "thumbs_up": 10,
-   "gain": 3,
+   "thumbs_up": 11,
+   "gain": 2,
    "kind": "unlabeled",
-   "age_days": 7.8,
-   "velocity": 1.29
+   "age_days": 11.5,
+   "velocity": 0.96
   },
   {
    "repo": "anthropics/claude-code",
@@ -438,77 +461,19 @@
    "title": "Desktop app: effort level now takes 3 clicks instead of 1",
    "url": "https://github.com/anthropics/claude-code/issues/102095",
    "created_at": "2026-10-14T16:30:39Z",
-   "updated_at": "2026-10-20T14:33:12Z",
+   "updated_at": "2026-10-23T03:59:53Z",
    "labels": [
     "enhancement",
     "platform:windows",
     "area:ui",
     "area:desktop"
-   ],
-   "comments": 9,
-   "thumbs_up": 10,
-   "gain": 8,
-   "kind": "request",
-   "age_days": 7.8,
-   "velocity": 1.27
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 89673,
-   "title": "[FEATURE] Desktop app: option to make Enter insert a newline and Ctrl+Enter submit in the chat composer",
-   "url": "https://github.com/anthropics/claude-code/issues/89673",
-   "created_at": "2026-08-26T01:06:27Z",
-   "updated_at": "2026-10-22T12:30:59Z",
-   "labels": [
-    "enhancement",
-    "area:desktop",
-    "keybindings"
-   ],
-   "comments": 15,
-   "thumbs_up": 64,
-   "gain": 19,
-   "kind": "request",
-   "age_days": 57.5,
-   "velocity": 1.11
-  },
-  {
-   "repo": "openai/codex",
-   "number": 51268,
-   "title": "CLI: persist dismissal of \"Set up security for Daybreak mode\" reminder",
-   "url": "https://github.com/openai/codex/issues/51268",
-   "created_at": "2026-10-06T04:48:44Z",
-   "updated_at": "2026-10-20T20:15:13Z",
-   "labels": [
-    "enhancement",
-    "TUI",
-    "CLI"
    ],
    "comments": 10,
-   "thumbs_up": 17,
-   "gain": 2,
+   "thumbs_up": 11,
+   "gain": 7,
    "kind": "request",
-   "age_days": 16.3,
-   "velocity": 1.04
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 100216,
-   "title": "[FEATURE] Desktop sidebar: option to show forks as top-level sessions instead of nested under the parent",
-   "url": "https://github.com/anthropics/claude-code/issues/100216",
-   "created_at": "2026-10-07T12:20:02Z",
-   "updated_at": "2026-10-15T22:04:41Z",
-   "labels": [
-    "enhancement",
-    "platform:windows",
-    "area:ui",
-    "area:desktop"
-   ],
-   "comments": 8,
-   "thumbs_up": 15,
-   "gain": 2,
-   "kind": "request",
-   "age_days": 15.0,
-   "velocity": 1.0
+   "age_days": 11.6,
+   "velocity": 0.95
   },
   {
    "repo": "anomalyco/opencode",
@@ -518,12 +483,71 @@
    "created_at": "2026-09-14T00:24:33Z",
    "updated_at": "2026-10-08T04:57:11Z",
    "labels": [],
-   "comments": 26,
-   "thumbs_up": 36,
+   "comments": 27,
+   "thumbs_up": 40,
+   "gain": 5,
+   "kind": "request",
+   "age_days": 42.2,
+   "velocity": 0.95
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 102305,
+   "title": "Code tab update: please restore \"Group by folder\" and always-visible context %",
+   "url": "https://github.com/anthropics/claude-code/issues/102305",
+   "created_at": "2026-10-15T06:52:21Z",
+   "updated_at": "2026-10-16T07:02:39Z",
+   "labels": [
+    "enhancement",
+    "area:plugins",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 6,
+   "thumbs_up": 10,
+   "gain": 2,
+   "kind": "request",
+   "age_days": 11.0,
+   "velocity": 0.91
+  },
+  {
+   "repo": "openai/codex",
+   "number": 51268,
+   "title": "CLI: persist dismissal of \"Set up security for Daybreak mode\" reminder",
+   "url": "https://github.com/openai/codex/issues/51268",
+   "created_at": "2026-10-06T04:48:44Z",
+   "updated_at": "2026-10-25T07:02:55Z",
+   "labels": [
+    "enhancement",
+    "TUI",
+    "CLI"
+   ],
+   "comments": 12,
+   "thumbs_up": 18,
    "gain": 1,
    "kind": "request",
-   "age_days": 38.5,
-   "velocity": 0.93
+   "age_days": 20.1,
+   "velocity": 0.9
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 98439,
+   "title": "[FEATURE] Desktop: assign folders to custom sidebar groups so new sessions are filed automatically",
+   "url": "https://github.com/anthropics/claude-code/issues/98439",
+   "created_at": "2026-09-30T15:32:51Z",
+   "updated_at": "2026-10-25T13:41:58Z",
+   "labels": [
+    "enhancement",
+    "platform:windows",
+    "area:ui",
+    "area:desktop"
+   ],
+   "comments": 5,
+   "thumbs_up": 22,
+   "gain": 2,
+   "kind": "request",
+   "age_days": 25.6,
+   "velocity": 0.86
   },
   {
    "repo": "anthropics/claude-code",
@@ -539,53 +563,35 @@
     "area:permissions"
    ],
    "comments": 10,
-   "thumbs_up": 21,
-   "gain": 4,
+   "thumbs_up": 22,
+   "gain": 1,
    "kind": "request",
-   "age_days": 23.0,
-   "velocity": 0.91
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 98439,
-   "title": "[FEATURE] Desktop: assign folders to custom sidebar groups so new sessions are filed automatically",
-   "url": "https://github.com/anthropics/claude-code/issues/98439",
-   "created_at": "2026-09-30T15:32:51Z",
-   "updated_at": "2026-10-15T06:54:29Z",
-   "labels": [
-    "enhancement",
-    "platform:windows",
-    "area:ui",
-    "area:desktop"
-   ],
-   "comments": 4,
-   "thumbs_up": 20,
-   "gain": 3,
-   "kind": "request",
-   "age_days": 21.9,
-   "velocity": 0.91
+   "age_days": 26.7,
+   "velocity": 0.82
   }
  ],
  "fastest_rising_bugs": [
   {
-   "repo": "openai/codex",
-   "number": 54677,
-   "title": "[Codex Desktop][Windows] Weekly quota jumped 67 points in 38 seconds (Oct 16, 2026; 18:10 UTC)",
-   "url": "https://github.com/openai/codex/issues/54677",
-   "created_at": "2026-10-16T19:02:24Z",
-   "updated_at": "2026-10-22T10:51:35Z",
+   "repo": "anthropics/claude-code",
+   "number": 97074,
+   "title": "[BUG] Headless `claude -p` (entrypoint `sdk-cli`) uses ~1.8× more of the 5-hour window per token than interactive `cli`, same workload",
+   "url": "https://github.com/anthropics/claude-code/issues/97074",
+   "created_at": "2026-09-25T11:00:35Z",
+   "updated_at": "2026-10-25T23:46:42Z",
    "labels": [
     "bug",
-    "windows-os",
-    "rate-limits",
-    "app"
+    "has repro",
+    "platform:linux",
+    "area:cost",
+    "area:cli",
+    "api:anthropic"
    ],
-   "comments": 46,
-   "thumbs_up": 42,
-   "gain": 42,
+   "comments": 29,
+   "thumbs_up": 52,
+   "gain": 47,
    "kind": "bug",
-   "age_days": 5.7,
-   "velocity": 7.32
+   "age_days": 30.8,
+   "velocity": 1.69
   },
   {
    "repo": "openai/codex",
@@ -593,7 +599,7 @@
    "title": "Work mode blocks message submission in BYOK mode when local browser/computer tools are enabled",
    "url": "https://github.com/openai/codex/issues/54841",
    "created_at": "2026-10-17T10:40:33Z",
-   "updated_at": "2026-10-22T05:00:16Z",
+   "updated_at": "2026-10-23T10:40:44Z",
    "labels": [
     "bug",
     "auth",
@@ -602,74 +608,90 @@
     "computer-use",
     "browser"
    ],
-   "comments": 36,
-   "thumbs_up": 26,
-   "gain": 26,
-   "kind": "bug",
-   "age_days": 5.1,
-   "velocity": 5.11
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 102132,
-   "title": "[BUG] Desktop Code tab: next-step box (wrap_up with an ask) can end the turn before the reply is written",
-   "url": "https://github.com/anthropics/claude-code/issues/102132",
-   "created_at": "2026-10-14T18:24:32Z",
-   "updated_at": "2026-10-21T11:28:10Z",
-   "labels": [
-    "bug",
-    "platform:windows",
-    "area:tools",
-    "area:desktop"
-   ],
-   "comments": 19,
-   "thumbs_up": 25,
-   "gain": 25,
-   "kind": "bug",
-   "age_days": 7.8,
-   "velocity": 3.22
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 102098,
-   "title": "[BUG] Desktop Code tab: stats view (activity heatmap, streaks, per-model tokens) no longer available",
-   "url": "https://github.com/anthropics/claude-code/issues/102098",
-   "created_at": "2026-10-14T16:32:52Z",
-   "updated_at": "2026-10-20T09:12:33Z",
-   "labels": [
-    "bug",
-    "platform:macos",
-    "area:ui",
-    "area:desktop"
-   ],
-   "comments": 5,
-   "thumbs_up": 24,
+   "comments": 39,
+   "thumbs_up": 28,
    "gain": 18,
    "kind": "bug",
-   "age_days": 7.8,
-   "velocity": 3.06
+   "age_days": 8.8,
+   "velocity": 3.18
+  },
+  {
+   "repo": "openai/codex",
+   "number": 56691,
+   "title": "[BUG] Codex 26.1021.22027 fails to start UI in VS Code 1.143.1 on Windows",
+   "url": "https://github.com/openai/codex/issues/56691",
+   "created_at": "2026-10-24T09:46:40Z",
+   "updated_at": "2026-10-25T22:56:20Z",
+   "labels": [
+    "bug",
+    "windows-os",
+    "extension"
+   ],
+   "comments": 30,
+   "thumbs_up": 18,
+   "gain": 18,
+   "kind": "bug",
+   "age_days": 1.8,
+   "velocity": 9.74
+  },
+  {
+   "repo": "openai/codex",
+   "number": 56655,
+   "title": "UI doesn't start in VS Code extension 26.51021.22027",
+   "url": "https://github.com/openai/codex/issues/56655",
+   "created_at": "2026-10-24T04:29:29Z",
+   "updated_at": "2026-10-25T18:54:12Z",
+   "labels": [
+    "bug",
+    "windows-os",
+    "extension"
+   ],
+   "comments": 17,
+   "thumbs_up": 15,
+   "gain": 15,
+   "kind": "bug",
+   "age_days": 2.1,
+   "velocity": 7.25
   },
   {
    "repo": "anthropics/claude-code",
-   "number": 102136,
-   "title": "[BUG] Permission prompt defaults to \"Always allow\" instead of \"Allow once\" - dangerous UX regression",
-   "url": "https://github.com/anthropics/claude-code/issues/102136",
-   "created_at": "2026-10-14T18:29:54Z",
-   "updated_at": "2026-10-19T10:59:33Z",
+   "number": 103335,
+   "title": "[Desktop] Prompt suggestions (Tab to accept) no longer appear in Code tab since ~2026-10-13",
+   "url": "https://github.com/anthropics/claude-code/issues/103335",
+   "created_at": "2026-10-19T01:36:15Z",
+   "updated_at": "2026-10-25T21:23:35Z",
    "labels": [
     "bug",
+    "has repro",
     "platform:macos",
-    "user-experience",
-    "regression",
-    "area:permissions",
+    "area:tui",
     "area:desktop"
    ],
-   "comments": 10,
-   "thumbs_up": 21,
-   "gain": 17,
+   "comments": 13,
+   "thumbs_up": 15,
+   "gain": 14,
    "kind": "bug",
-   "age_days": 7.8,
-   "velocity": 2.71
+   "age_days": 7.2,
+   "velocity": 2.09
+  },
+  {
+   "repo": "openai/codex",
+   "number": 55827,
+   "title": "[Windows] New Worktree chats fail with Cannot serialize value; Local mode works",
+   "url": "https://github.com/openai/codex/issues/55827",
+   "created_at": "2026-10-21T08:48:21Z",
+   "updated_at": "2026-10-22T17:27:26Z",
+   "labels": [
+    "bug",
+    "windows-os",
+    "app"
+   ],
+   "comments": 15,
+   "thumbs_up": 14,
+   "gain": 14,
+   "kind": "bug",
+   "age_days": 4.9,
+   "velocity": 2.86
   },
   {
    "repo": "anthropics/claude-code",
@@ -677,7 +699,7 @@
    "title": "[BUG] Desktop 2.37337.1 (Windows, Store/MSIX): built-in \"Routines\" sidebar section is forced hidden on every launch, and there is no UI toggle to show it",
    "url": "https://github.com/anthropics/claude-code/issues/102150",
    "created_at": "2026-10-14T19:17:25Z",
-   "updated_at": "2026-10-20T16:39:56Z",
+   "updated_at": "2026-10-23T20:36:29Z",
    "labels": [
     "bug",
     "has repro",
@@ -687,31 +709,12 @@
     "area:desktop",
     "area:routines"
    ],
-   "comments": 19,
-   "thumbs_up": 25,
-   "gain": 15,
+   "comments": 21,
+   "thumbs_up": 33,
+   "gain": 13,
    "kind": "bug",
-   "age_days": 7.7,
-   "velocity": 3.23
-  },
-  {
-   "repo": "openai/codex",
-   "number": 55827,
-   "title": "[Windows] New Worktree chats fail with Cannot serialize value; Local mode works",
-   "url": "https://github.com/openai/codex/issues/55827",
-   "created_at": "2026-10-21T08:48:21Z",
-   "updated_at": "2026-10-22T11:21:54Z",
-   "labels": [
-    "bug",
-    "windows-os",
-    "app"
-   ],
-   "comments": 14,
-   "thumbs_up": 12,
-   "gain": 12,
-   "kind": "bug",
-   "age_days": 1.2,
-   "velocity": 10.29
+   "age_days": 11.5,
+   "velocity": 2.88
   },
   {
    "repo": "anthropics/claude-code",
@@ -724,215 +727,215 @@
     "bug"
    ],
    "comments": 19,
-   "thumbs_up": 109,
-   "gain": 11,
+   "thumbs_up": 114,
+   "gain": 12,
    "kind": "bug",
-   "age_days": 65.0,
-   "velocity": 1.68
+   "age_days": 68.7,
+   "velocity": 1.66
   },
   {
    "repo": "anthropics/claude-code",
-   "number": 102142,
-   "title": "[BUG] Desktop 2.37337.1: Code tab Routines section hidden after the sidebar update, reset to hidden on every launch",
-   "url": "https://github.com/anthropics/claude-code/issues/102142",
-   "created_at": "2026-10-14T18:53:04Z",
-   "updated_at": "2026-10-22T00:19:52Z",
-   "labels": [],
-   "comments": 20,
-   "thumbs_up": 14,
-   "gain": 10,
-   "kind": "bug",
-   "age_days": 7.7,
-   "velocity": 1.81
-  },
-  {
-   "repo": "anthropics/claude-code",
-   "number": 103169,
-   "title": "[Bug] Desktop Code tab: next-step box (wrap_up) asks for approval of a proposal that was never shown as text",
-   "url": "https://github.com/anthropics/claude-code/issues/103169",
-   "created_at": "2026-10-18T11:17:32Z",
-   "updated_at": "2026-10-20T19:10:56Z",
+   "number": 103376,
+   "title": "[BUG] Weekly limit 0% to 54% in 22h with same token volume that took 4.4 days to reach 60% the prior week",
+   "url": "https://github.com/anthropics/claude-code/issues/103376",
+   "created_at": "2026-10-19T06:30:55Z",
+   "updated_at": "2026-10-25T07:09:28Z",
    "labels": [
     "bug",
-    "has repro",
-    "area:tools",
-    "area:ui",
-    "area:desktop"
+    "platform:macos",
+    "area:cost"
    ],
-   "comments": 1,
-   "thumbs_up": 10,
-   "gain": 10,
+   "comments": 9,
+   "thumbs_up": 12,
+   "gain": 12,
    "kind": "bug",
-   "age_days": 4.1,
-   "velocity": 2.46
+   "age_days": 7.0,
+   "velocity": 1.72
+  },
+  {
+   "repo": "anthropics/claude-code",
+   "number": 104695,
+   "title": "[BUG] Desktop (Windows) 3.6556.2: fizzy_lake redesign wrecks the dark theme — glaring text, cold palette, worse fonts and chat rendering, inverted sidebar, slower launch",
+   "url": "https://github.com/anthropics/claude-code/issues/104695",
+   "created_at": "2026-10-23T18:24:07Z",
+   "updated_at": "2026-10-25T22:03:57Z",
+   "labels": [
+    "invalid"
+   ],
+   "comments": 8,
+   "thumbs_up": 12,
+   "gain": 12,
+   "kind": "bug",
+   "age_days": 2.5,
+   "velocity": 4.82
   }
  ],
  "coverage": [
   {
    "repo": "anthropics/claude-code",
    "window": "new",
-   "total": 11813,
+   "total": 11806,
    "fetched": 100,
-   "cutoff": 9
+   "cutoff": 8
   },
   {
    "repo": "anthropics/claude-code",
    "window": "mid",
-   "total": 2919,
+   "total": 3049,
    "fetched": 100,
    "cutoff": 70
   },
   {
    "repo": "anthropics/claude-code",
    "window": "top",
-   "total": 14872,
+   "total": 14997,
    "fetched": 100,
-   "cutoff": 76
+   "cutoff": 75
   },
   {
    "repo": "openai/codex",
    "window": "new",
-   "total": 11276,
+   "total": 11436,
    "fetched": 100,
-   "cutoff": 11
+   "cutoff": 10
   },
   {
    "repo": "openai/codex",
    "window": "mid",
-   "total": 12610,
+   "total": 13124,
    "fetched": 100,
-   "cutoff": 37
+   "cutoff": 38
   },
   {
    "repo": "openai/codex",
    "window": "top",
-   "total": 23957,
+   "total": 24635,
    "fetched": 100,
    "cutoff": 45
   },
   {
    "repo": "anomalyco/opencode",
    "window": "new",
-   "total": 2186,
+   "total": 2231,
    "fetched": 100,
-   "cutoff": 2
+   "cutoff": 1
   },
   {
    "repo": "anomalyco/opencode",
    "window": "mid",
-   "total": 313,
+   "total": 305,
    "fetched": 100,
    "cutoff": 2
   },
   {
    "repo": "anomalyco/opencode",
    "window": "top",
-   "total": 2503,
+   "total": 2540,
    "fetched": 100,
    "cutoff": 4
   },
   {
    "repo": "google-gemini/gemini-cli",
    "window": "new",
-   "total": 212,
+   "total": 186,
    "fetched": 100,
    "cutoff": 0
   },
   {
    "repo": "google-gemini/gemini-cli",
    "window": "mid",
-   "total": 251,
+   "total": 292,
    "fetched": 100,
    "cutoff": 0
   },
   {
    "repo": "google-gemini/gemini-cli",
    "window": "top",
-   "total": 485,
+   "total": 502,
    "fetched": 100,
    "cutoff": 0
   },
   {
    "repo": "openclaw/openclaw",
    "window": "new",
-   "total": 4113,
+   "total": 4180,
    "fetched": 100,
    "cutoff": 0
   },
   {
    "repo": "openclaw/openclaw",
    "window": "mid",
-   "total": 2161,
+   "total": 883,
    "fetched": 100,
-   "cutoff": 2
+   "cutoff": 1
   },
   {
    "repo": "openclaw/openclaw",
    "window": "top",
-   "total": 6274,
+   "total": 5063,
    "fetched": 100,
-   "cutoff": 2
+   "cutoff": 1
   },
   {
    "repo": "NousResearch/hermes-agent",
    "window": "new",
-   "total": 7981,
+   "total": 8241,
    "fetched": 100,
    "cutoff": 1
   },
   {
    "repo": "NousResearch/hermes-agent",
    "window": "mid",
-   "total": 8637,
+   "total": 8958,
    "fetched": 100,
    "cutoff": 6
   },
   {
    "repo": "NousResearch/hermes-agent",
    "window": "top",
-   "total": 16618,
+   "total": 17199,
    "fetched": 100,
    "cutoff": 6
   },
   {
    "repo": "cline/cline",
    "window": "new",
-   "total": 411,
+   "total": 402,
    "fetched": 100,
    "cutoff": 0
   },
   {
    "repo": "cline/cline",
    "window": "mid",
-   "total": 518,
+   "total": 534,
    "fetched": 100,
    "cutoff": 1
   },
   {
    "repo": "cline/cline",
    "window": "top",
-   "total": 938,
+   "total": 946,
    "fetched": 100,
    "cutoff": 1
   },
   {
    "repo": "aaif-goose/goose",
    "window": "new",
-   "total": 279,
+   "total": 282,
    "fetched": 100,
    "cutoff": 0
   },
   {
    "repo": "aaif-goose/goose",
    "window": "mid",
-   "total": 53,
-   "fetched": 53,
+   "total": 64,
+   "fetched": 64,
    "cutoff": null
   },
   {
    "repo": "aaif-goose/goose",
    "window": "top",
-   "total": 332,
+   "total": 346,
    "fetched": 100,
    "cutoff": 0
   }

@@ -1,4 +1,4 @@
-# Agent 需求雷达 · Agent Demand Radar — 2026-11-02
+# Agent 需求雷达 · Agent Demand Radar — 2026-11-09
 
 扫描 8 个仓库的未关闭 issue。需求榜不含标为 bug 的 issue，bug 单独列在后面。  
 Open issues from 8 repositories. The demand lists leave out issues labeled as bugs; bugs get their own list below.
@@ -10,21 +10,21 @@ Open issues from 8 repositories. The demand lists leave out issues labeled as bu
 
 | # | Repo | Issue | 类型 Type | +👍 7d | 👍 | 天数 Age | Labels |
 | ---: | --- | --- | --- | ---: | ---: | ---: | --- |
-| 1 | anthropics/claude-code | [#86879 Feature request: a supported way to disable the agent_summary spinner (22.7% of requests,…](https://github.com/anthropics/claude-code/issues/86879) | 需求 Request | +104 | 106 | 79 | enhancement, platform:macos, area:cost |
-| 2 | anthropics/claude-code | [#102264 [FEATURE] Bring back the usage stats panel on the Desktop new session screen](https://github.com/anthropics/claude-code/issues/102264) | 需求 Request | +45 | 87 | 18 | enhancement, platform:windows, area:ui |
-| 3 | anthropics/claude-code | [#18435 [FEATURE] Add the ability to manage multiple Claude accounts within the Claude Desktop ap…](https://github.com/anthropics/claude-code/issues/18435) | 需求 Request | +31 | 982 | 290 | enhancement, area:auth, area:ide |
-| 4 | openai/codex | [#58530 Please preserve separate ChatGPT and Codex usage allowances on Plus (feedback on reported…](https://github.com/openai/codex/issues/58530) | 需求 Request | +21 | 21 | 2 | enhancement, rate-limits |
-| 5 | anthropics/claude-code | [#84862 [FEATURE] Passkey (WebAuthn) sign-in for Claude accounts, across every surface](https://github.com/anthropics/claude-code/issues/84862) | 需求 Request | +20 | 151 | 87 | enhancement, area:auth |
-| 6 | anthropics/claude-code | [#89673 [FEATURE] Desktop app: option to make Enter insert a newline and Ctrl+Enter submit in the…](https://github.com/anthropics/claude-code/issues/89673) | 需求 Request | +16 | 86 | 68 | enhancement, area:desktop, keybindings |
-| 7 | anthropics/claude-code | [#27302 [FEATURE] Support multiple Connector accounts (same connector, different accounts) in Cla…](https://github.com/anthropics/claude-code/issues/27302) | 需求 Request | +14 | 443 | 254 | enhancement, area:auth |
-| 8 | anthropics/claude-code | [#31005 Support for AGENTS.md and .agents/skills/, the community has been asking since August 2025](https://github.com/anthropics/claude-code/issues/31005) | 需求 Request | +13 | 437 | 242 | duplicate, enhancement, area:core |
-| 9 | anthropics/claude-code | [#98004 [Feature request] Hebrew (he) support for voice dictation](https://github.com/anthropics/claude-code/issues/98004) | 需求 Request | +13 | 14 | 34 | enhancement, area:tui |
-| 10 | openai/codex | [#54925 One-Click MCP Connection — Connect with ChatGPT](https://github.com/openai/codex/issues/54925) | 需求 Request | +13 | 13 | 15 | enhancement, mcp |
-| 11 | openai/codex | [#58529 [macOS] Preserve independent ChatGPT and Codex windows after Classic retirement](https://github.com/openai/codex/issues/58529) | 需求 Request | +13 | 13 | 2 | enhancement, app |
-| 12 | anomalyco/opencode | [#59387 Free tier issues: read this first, then post your report here](https://github.com/anomalyco/opencode/issues/59387) | 未分类 Unlabeled | +13 | 13 | 6 | zen |
-| 13 | anthropics/claude-code | [#79305 Desktop app: support custom themes / accent colors (parity with CLI custom theme system)](https://github.com/anthropics/claude-code/issues/79305) | 需求 Request | +12 | 86 | 105 | enhancement, platform:windows, platform:macos |
-| 14 | anthropics/claude-code | [#104837 [FEATURE] Approve VS Code's Agents window to use an existing claude.ai login (claude logi…](https://github.com/anthropics/claude-code/issues/104837) | 需求 Request | +12 | 12 | 9 | enhancement, platform:macos, area:auth |
-| 15 | anthropics/claude-code | [#30154 FEATURE: Multi-window support in Claude Code Desktop](https://github.com/anthropics/claude-code/issues/30154) | 需求 Request | +9 | 262 | 245 | enhancement, platform:macos, area:desktop |
+| 1 | anthropics/claude-code | [#18435 [FEATURE] Add the ability to manage multiple Claude accounts within the Claude Desktop ap…](https://github.com/anthropics/claude-code/issues/18435) | 需求 Request | +40 | 1022 | 297 | enhancement, area:auth, area:ide |
+| 2 | anthropics/claude-code | [#31005 Support for AGENTS.md and .agents/skills/, the community has been asking since August 2025](https://github.com/anthropics/claude-code/issues/31005) | 需求 Request | +20 | 457 | 249 | duplicate, enhancement, area:core |
+| 3 | anthropics/claude-code | [#84862 [FEATURE] Passkey (WebAuthn) sign-in for Claude accounts, across every surface](https://github.com/anthropics/claude-code/issues/84862) | 需求 Request | +18 | 169 | 94 | enhancement, area:auth |
+| 4 | openai/codex | [#58530 Please preserve separate ChatGPT High and Codex/Work allowances on Plus (confirmed Decemb…](https://github.com/openai/codex/issues/58530) | 需求 Request | +16 | 37 | 9 | enhancement, rate-limits |
+| 5 | anthropics/claude-code | [#86879 Feature request: a supported way to disable the agent_summary spinner (22.7% of requests,…](https://github.com/anthropics/claude-code/issues/86879) | 需求 Request | +15 | 121 | 86 | enhancement, platform:macos, area:cost |
+| 6 | anomalyco/opencode | [#59387 Free tier issues: read this first, then post your report here](https://github.com/anomalyco/opencode/issues/59387) | 未分类 Unlabeled | +12 | 25 | 13 | zen |
+| 7 | anthropics/claude-code | [#15942 Add support for Visual Studio 2026 Integration](https://github.com/anthropics/claude-code/issues/15942) | 需求 Request | +11 | 489 | 312 | enhancement, platform:windows, area:ide |
+| 8 | anthropics/claude-code | [#27302 [FEATURE] Support multiple Connector accounts (same connector, different accounts) in Cla…](https://github.com/anthropics/claude-code/issues/27302) | 需求 Request | +11 | 454 | 261 | enhancement, area:auth |
+| 9 | anthropics/claude-code | [#89673 [FEATURE] Desktop app: option to make Enter insert a newline and Ctrl+Enter submit in the…](https://github.com/anthropics/claude-code/issues/89673) | 需求 Request | +11 | 96 | 75 | enhancement, area:desktop, keybindings |
+| 10 | anthropics/claude-code | [#107175 [FEATURE] Use Varlink for cross-session messaging](https://github.com/anthropics/claude-code/issues/107175) | 需求 Request | +10 | 10 | 5 | enhancement, platform:linux, area:core |
+| 11 | anthropics/claude-code | [#36151 [FEATURE] Multi-account switching in Claude Mobile app without shared email](https://github.com/anthropics/claude-code/issues/36151) | 需求 Request | +7 | 776 | 235 | invalid, area:auth |
+| 12 | anthropics/claude-code | [#30154 FEATURE: Multi-window support in Claude Code Desktop](https://github.com/anthropics/claude-code/issues/30154) | 需求 Request | +7 | 269 | 252 | enhancement, platform:macos, area:desktop |
+| 13 | anthropics/claude-code | [#102264 [FEATURE] Bring back the usage stats panel on the Desktop new session screen](https://github.com/anthropics/claude-code/issues/102264) | 需求 Request | +7 | 94 | 25 | enhancement, platform:windows, area:ui |
+| 14 | anthropics/claude-code | [#105159 [FEATURE] Claude Desktop Code tab: revert sidebar shimmer, old status colours, remove cod…](https://github.com/anthropics/claude-code/issues/105159) | 需求 Request | +7 | 16 | 14 | enhancement, platform:windows, area:ui |
+| 15 | openai/codex | [#25319 Scope Codex VS Code chats to the current workspace/project](https://github.com/openai/codex/issues/25319) | 需求 Request | +6 | 133 | 163 | enhancement, extension, session |
 
 ## 新冒头 · New and climbing (last 60 days)
 
@@ -33,21 +33,21 @@ Ranked by 👍 per day since the issue was opened.
 
 | # | Repo | Issue | 类型 Type | 👍 | 👍/天 per day | +👍 7d | 天数 Age | Labels |
 | ---: | --- | --- | --- | ---: | ---: | ---: | ---: | --- |
-| 1 | openai/codex | [#58530 Please preserve separate ChatGPT and Codex usage allowances on Plus (feedback on reported…](https://github.com/openai/codex/issues/58530) | 需求 Request | 21 | 11.1 | +21 | 2 | enhancement, rate-limits |
-| 2 | openai/codex | [#58529 [macOS] Preserve independent ChatGPT and Codex windows after Classic retirement](https://github.com/openai/codex/issues/58529) | 需求 Request | 13 | 6.9 | +13 | 2 | enhancement, app |
-| 3 | openai/codex | [#48195 CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shou…](https://github.com/openai/codex/issues/48195) | 需求 Request | 187 | 5.0 | +1 | 37 | enhancement, CLI, app-server |
-| 4 | anthropics/claude-code | [#102264 [FEATURE] Bring back the usage stats panel on the Desktop new session screen](https://github.com/anthropics/claude-code/issues/102264) | 需求 Request | 87 | 4.8 | +45 | 18 | enhancement, platform:windows, area:ui |
-| 5 | anthropics/claude-code | [#102273 [FEATURE] Desktop app (Code tab): end-of-turn "next-step" box with 1-2 answer buttons get…](https://github.com/anthropics/claude-code/issues/102273) | 需求 Request | 56 | 3.1 | +7 | 18 | enhancement, area:ui, area:desktop |
-| 6 | anthropics/claude-code | [#91870 Mods - make Claude 10x more extensible](https://github.com/anthropics/claude-code/issues/91870) | 需求 Request | 132 | 2.2 | +1 | 60 | enhancement, area:hooks, area:plugins |
-| 7 | anomalyco/opencode | [#59387 Free tier issues: read this first, then post your report here](https://github.com/anomalyco/opencode/issues/59387) | 未分类 Unlabeled | 13 | 2.0 | +13 | 6 | zen |
-| 8 | openai/codex | [#44561 Turn off whimsy effect (astra stars) by default](https://github.com/openai/codex/issues/44561) | 需求 Request | 86 | 1.6 | +1 | 53 | enhancement, TUI, CLI |
-| 9 | anthropics/claude-code | [#104837 [FEATURE] Approve VS Code's Agents window to use an existing claude.ai login (claude logi…](https://github.com/anthropics/claude-code/issues/104837) | 需求 Request | 12 | 1.4 | +12 | 9 | enhancement, platform:macos, area:auth |
-| 10 | anthropics/claude-code | [#105159 [FEATURE] Claude Desktop Code tab: revert sidebar shimmer, old status colours, remove cod…](https://github.com/anthropics/claude-code/issues/105159) | 需求 Request | 9 | 1.3 | +9 | 7 | enhancement, platform:windows, area:ui |
-| 11 | anthropics/claude-code | [#102952 [FEATURE] Bring back the glowing code-glyph ripple background on the desktop home screen](https://github.com/anthropics/claude-code/issues/102952) | 需求 Request | 18 | 1.1 | +6 | 16 | enhancement, platform:windows, area:ui |
-| 12 | anomalyco/opencode | [#48882 [FEATURE]: Restore the legacy UI with the persistent left sidebar as an option](https://github.com/anomalyco/opencode/issues/48882) | 需求 Request | 43 | 0.9 | +3 | 49 | — |
-| 13 | anthropics/claude-code | [#100216 [FEATURE] Desktop sidebar: option to show forks as top-level sessions instead of nested u…](https://github.com/anthropics/claude-code/issues/100216) | 需求 Request | 22 | 0.9 | +2 | 26 | enhancement, platform:windows, area:ui |
-| 14 | openai/codex | [#54925 One-Click MCP Connection — Connect with ChatGPT](https://github.com/openai/codex/issues/54925) | 需求 Request | 13 | 0.8 | +13 | 15 | enhancement, mcp |
-| 15 | anthropics/claude-code | [#102116 Desktop app: allow to show archived sessions in the sidebar](https://github.com/anthropics/claude-code/issues/102116) | 需求 Request | 15 | 0.8 | +2 | 19 | platform:windows, feature request, area:desktop |
+| 1 | openai/codex | [#48195 CLI: make `daemon_auto_start` opt-in — a persistent, self-updating background daemon shou…](https://github.com/openai/codex/issues/48195) | 需求 Request | 191 | 4.3 | +4 | 44 | enhancement, CLI, app-server |
+| 2 | openai/codex | [#58530 Please preserve separate ChatGPT High and Codex/Work allowances on Plus (confirmed Decemb…](https://github.com/openai/codex/issues/58530) | 需求 Request | 37 | 4.2 | +16 | 9 | enhancement, rate-limits |
+| 3 | anthropics/claude-code | [#102264 [FEATURE] Bring back the usage stats panel on the Desktop new session screen](https://github.com/anthropics/claude-code/issues/102264) | 需求 Request | 94 | 3.7 | +7 | 25 | enhancement, platform:windows, area:ui |
+| 4 | anthropics/claude-code | [#102273 [FEATURE] Desktop app (Code tab): end-of-turn "next-step" box with 1-2 answer buttons get…](https://github.com/anthropics/claude-code/issues/102273) | 需求 Request | 58 | 2.3 | +2 | 25 | enhancement, area:ui, area:desktop |
+| 5 | anthropics/claude-code | [#107175 [FEATURE] Use Varlink for cross-session messaging](https://github.com/anthropics/claude-code/issues/107175) | 需求 Request | 10 | 2.0 | +10 | 5 | enhancement, platform:linux, area:core |
+| 6 | openai/codex | [#58529 [macOS] Preserve independent ChatGPT and Codex windows after Classic retirement](https://github.com/openai/codex/issues/58529) | 需求 Request | 18 | 2.0 | +5 | 9 | enhancement, app |
+| 7 | anomalyco/opencode | [#59387 Free tier issues: read this first, then post your report here](https://github.com/anomalyco/opencode/issues/59387) | 未分类 Unlabeled | 25 | 1.9 | +12 | 13 | zen |
+| 8 | anomalyco/opencode | [#56324 Free models fail inside official OpenCode TUI with "free tier can only be used from withi…](https://github.com/anomalyco/opencode/issues/56324) | 未分类 Unlabeled | 31 | 1.3 | +0 | 23 | severity:high |
+| 9 | anthropics/claude-code | [#105159 [FEATURE] Claude Desktop Code tab: revert sidebar shimmer, old status colours, remove cod…](https://github.com/anthropics/claude-code/issues/105159) | 需求 Request | 16 | 1.2 | +7 | 14 | enhancement, platform:windows, area:ui |
+| 10 | anthropics/claude-code | [#104837 [FEATURE] Approve VS Code's Agents window to use an existing claude.ai login (claude logi…](https://github.com/anthropics/claude-code/issues/104837) | 需求 Request | 17 | 1.1 | +5 | 16 | enhancement, platform:macos, area:auth |
+| 11 | anomalyco/opencode | [#48882 [FEATURE]: Restore the legacy UI with the persistent left sidebar as an option](https://github.com/anomalyco/opencode/issues/48882) | 需求 Request | 46 | 0.8 | +3 | 56 | — |
+| 12 | anthropics/claude-code | [#102952 [FEATURE] Bring back the glowing code-glyph ripple background on the desktop home screen](https://github.com/anthropics/claude-code/issues/102952) | 需求 Request | 18 | 0.8 | +0 | 23 | enhancement, platform:windows, area:ui |
+| 13 | anthropics/claude-code | [#102116 Desktop app: allow to show archived sessions in the sidebar](https://github.com/anthropics/claude-code/issues/102116) | 需求 Request | 18 | 0.7 | +3 | 26 | platform:windows, feature request, area:desktop |
+| 14 | anthropics/claude-code | [#100216 [FEATURE] Desktop sidebar: option to show forks as top-level sessions instead of nested u…](https://github.com/anthropics/claude-code/issues/100216) | 需求 Request | 23 | 0.7 | +1 | 33 | enhancement, platform:windows, area:ui |
+| 15 | anthropics/claude-code | [#98439 [FEATURE] Desktop: assign folders to custom sidebar groups so new sessions are filed auto…](https://github.com/anthropics/claude-code/issues/98439) | 需求 Request | 26 | 0.7 | +1 | 40 | enhancement, platform:windows, area:ui |
 
 ## Bug 涨幅 · Fastest-rising bugs
 
@@ -56,16 +56,16 @@ Bugs are rarely fixable from outside the product; listed for reference.
 
 | # | Repo | Issue | 类型 Type | +👍 7d | 👍 | 天数 Age | Labels |
 | ---: | --- | --- | --- | ---: | ---: | ---: | --- |
-| 1 | anthropics/claude-code | [#97074 [BUG] Headless `claude -p` (entrypoint `sdk-cli`) uses ~1.8× more of the 5-hour window pe…](https://github.com/anthropics/claude-code/issues/97074) | Bug | +81 | 136 | 38 | bug, has repro, platform:linux |
-| 2 | anthropics/claude-code | [#81138 [BUG] Account email (PII) is injected into the model's system prompt without consent, dis…](https://github.com/anthropics/claude-code/issues/81138) | Bug | +44 | 78 | 100 | bug |
-| 3 | openai/codex | [#56655 UI doesn't start in VS Code extension 26.51021.22027](https://github.com/openai/codex/issues/56655) | Bug | +41 | 58 | 9 | bug, windows-os, extension |
-| 4 | anthropics/claude-code | [#105408 [BUG] `apiKeyHelper` is not re-run on 401 when `CLAUDE_CODE_USE_VERTEX=1` with `CLAUDE_CO…](https://github.com/anthropics/claude-code/issues/105408) | Bug | +27 | 27 | 6 | bug, has repro, api:vertex |
-| 5 | openai/codex | [#56691 [BUG] Codex 26.1021.22027 fails to start UI in VS Code 1.143.1 on Windows](https://github.com/openai/codex/issues/56691) | Bug | +24 | 43 | 9 | bug, windows-os, extension |
-| 6 | anthropics/claude-code | [#104695 [BUG] Desktop (Windows) 3.6556.2: fizzy_lake redesign wrecks the dark theme — glaring tex…](https://github.com/anthropics/claude-code/issues/104695) | Bug | +21 | 33 | 10 | invalid |
-| 7 | openai/codex | [#57656 Usage limit indicator disappeared from the sidebar after updating Codex App](https://github.com/openai/codex/issues/57656) | Bug | +16 | 16 | 5 | bug, windows-os, rate-limits |
-| 8 | anthropics/claude-code | [#105125 [Bug] Opus usage limits draining ~5x faster, weekly usage at 72% after 2 days](https://github.com/anthropics/claude-code/issues/105125) | Bug | +14 | 15 | 7 | bug, platform:macos, area:cost |
-| 9 | anthropics/claude-code | [#105477 [MODEL] Opus 5.5 in Claude Code regressed since the week of Oct 19, unusable by Oct 26–27…](https://github.com/anthropics/claude-code/issues/105477) | Bug | +14 | 14 | 6 | bug, platform:windows, area:model |
-| 10 | openai/codex | [#57093 Desktop: MCP sign-in never surfaces for plugin servers; skill dependency install starts O…](https://github.com/openai/codex/issues/57093) | Bug | +13 | 13 | 7 | bug, auth, mcp |
+| 1 | anthropics/claude-code | [#107757 Bug Report: Privacy violation in User-Agent header](https://github.com/anthropics/claude-code/issues/107757) | Bug | +749 | 749 | 3 | bug, platform:macos, area:tools |
+| 2 | anthropics/claude-code | [#97074 [BUG] Headless `claude -p` (entrypoint `sdk-cli`) uses ~1.8× more of the 5-hour window pe…](https://github.com/anthropics/claude-code/issues/97074) | Bug | +20 | 157 | 45 | bug, has repro, platform:linux |
+| 3 | openai/codex | [#57641 Terminal CLI @Browser fails with "The browser access host is unavailable" after desktop a…](https://github.com/openai/codex/issues/57641) | Bug | +20 | 30 | 12 | bug, windows-os, browser |
+| 4 | openai/codex | [#56655 UI doesn't start in VS Code extension 26.51021.22027](https://github.com/openai/codex/issues/56655) | Bug | +19 | 77 | 16 | bug, windows-os, extension |
+| 5 | anthropics/claude-code | [#87647 [BUG] Over 6k issues labeled with "has repro" have been auto-closed since March 2026](https://github.com/anthropics/claude-code/issues/87647) | Bug | +12 | 137 | 83 | bug |
+| 6 | anthropics/claude-code | [#81138 [BUG] Account email (PII) is injected into the model's system prompt without consent, dis…](https://github.com/anthropics/claude-code/issues/81138) | Bug | +12 | 90 | 107 | bug |
+| 7 | openai/codex | [#59546 [Desktop] Built-in automation restriction blocks monitoring tasks in external web systems…](https://github.com/openai/codex/issues/59546) | Bug | +12 | 12 | 4 | bug, app, automations |
+| 8 | openai/codex | [#59895 Windows: local projects disappear after app update and switching back to personal account](https://github.com/openai/codex/issues/59895) | Bug | +12 | 12 | 3 | bug, windows-os, app |
+| 9 | openai/codex | [#56691 [BUG] Codex 26.1021.22027 fails to start UI in VS Code 1.143.1 on Windows](https://github.com/openai/codex/issues/56691) | Bug | +10 | 53 | 16 | bug, windows-os, extension |
+| 10 | openai/codex | [#56928 Browser automation unavailable: “The browser access host is unavailable”](https://github.com/openai/codex/issues/56928) | Bug | +10 | 14 | 15 | bug, app, browser |
 
 ## 覆盖范围 · Coverage
 
@@ -74,14 +74,14 @@ Each repository is searched in three windows by creation date, keeping the 100 m
 
 | Repo | 近 60 天 · last 60d | 60–365 天 · 60–365d | 全部时间 · all time |
 | --- | ---: | ---: | ---: |
-| anthropics/claude-code | ≥9 👍 (100/11,653) | ≥71 👍 (100/3,752) | ≥78 👍 (100/15,552) |
-| openai/codex | ≥10 👍 (100/11,758) | ≥38 👍 (100/14,021) | ≥45 👍 (100/25,864) |
-| anomalyco/opencode | ≥1 👍 (100/2,061) | ≥1 👍 (100/272) | ≥3 👍 (100/2,335) |
-| google-gemini/gemini-cli | ≥0 👍 (100/188) | ≥0 👍 (100/268) | ≥0 👍 (100/482) |
-| openclaw/openclaw | ≥0 👍 (100/3,909) | ≥1 👍 (100/1,006) | ≥1 👍 (100/4,915) |
-| NousResearch/hermes-agent | ≥1 👍 (100/8,467) | ≥6 👍 (100/9,638) | ≥6 👍 (100/18,105) |
-| cline/cline | ≥0 👍 (100/382) | ≥1 👍 (100/559) | ≥1 👍 (100/949) |
-| aaif-goose/goose | ≥0 👍 (100/275) | 全部 all (98) | ≥0 👍 (100/373) |
+| anthropics/claude-code | ≥10 👍 (100/11,935) | ≥72 👍 (100/4,173) | ≥80 👍 (100/16,267) |
+| openai/codex | ≥9 👍 (100/11,379) | ≥38 👍 (100/15,271) | ≥45 👍 (100/26,739) |
+| anomalyco/opencode | ≥1 👍 (100/2,307) | ≥1 👍 (100/350) | ≥4 👍 (100/2,659) |
+| google-gemini/gemini-cli | ≥0 👍 (100/177) | ≥0 👍 (100/249) | ≥0 👍 (100/453) |
+| openclaw/openclaw | ≥0 👍 (100/3,693) | ≥1 👍 (100/1,126) | ≥1 👍 (100/4,819) |
+| NousResearch/hermes-agent | ≥1 👍 (100/8,918) | ≥6 👍 (100/10,044) | ≥6 👍 (100/18,962) |
+| cline/cline | ≥0 👍 (100/364) | ≥1 👍 (100/560) | ≥1 👍 (100/933) |
+| aaif-goose/goose | ≥0 👍 (100/291) | ≥0 👍 (100/112) | ≥0 👍 (100/403) |
 
 ## 编者点评 · Notes
 
